@@ -154,7 +154,7 @@ export default function Page() {
                   <div className="flex items-center justify-between gap-x-2 text-base">
                     <h3 className="font-semibold leading-none hover:underline">
                       {qualifications.issuer}
-                      <a href={RESUME_DATA.issuerLink} target="_blank" rel="noopener noreferrer"></a>
+                      <a href={qualifications.issuerlink} target="_blank" rel="noopener noreferrer"></a>
                     </h3>
                     <div className="text-sm tabular-nums text-gray-500">
                       {qualifications.start} - {qualifications.end}
