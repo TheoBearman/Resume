@@ -61,11 +61,11 @@ export const RESUME_DATA = {
     },
     {
       school: "University College School, London,
-      degree: "Bachelor's Degree in Human Social and Political Sciences",
+      degree: "A Levels",
       start: "2017",
       end: "2020",
       description:
-        "A Levels – Government and Politics (A*), History (A*), Geography (A*)",
+        "Government and Politics (A*), History (A*), Geography (A*)",
     },
   ],
   qualifications: [
