@@ -124,7 +124,7 @@ export const RESUME_DATA = {
       issuer: "Jesus College, University of Cambridge",
       award: "Benefactor’s (2004) Prize",
       awarded: "June 2019",
-      description: "In recognition of outstanding academic performance in any part of the Tripos."
+      description: "In recognition of outstanding academic performance in any part of the Tripos.",
     },
     {
       issuer: "Jesus College, University of Cambridge",
