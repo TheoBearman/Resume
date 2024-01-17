@@ -54,16 +54,16 @@ export const RESUME_DATA = {
     {
       school: "University of Cambridge",
       degree: "Bachelor's Degree in Human Social and Political Sciences",
-      start: "2017",
-      end: "2020",
+      start: "October 2017",
+      end: "July 2020",
       description:
         "Double First Class Honours",
     },
     {
       school: "University College School, London",
       degree: "A Levels",
-      start: "2011",
-      end: "2016",
+      start: " September 2011",
+      end: "July 2016",
       description:
         "Government and Politics (A*), History (A*), Geography (A*)",
     },
