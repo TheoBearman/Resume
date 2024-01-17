@@ -100,7 +100,7 @@ export const RESUME_DATA = {
       start: "September 2016",
       end: "April 2017",
       description:
-        "One of sixteen school leavers selected for this programme from over one thousand candidates. The second half of the internship was spent working in a Business Development role, reporting directly to a Global Managing Director. Responsibilities included preparing detailed reports on a range of customs and border agencies, as well as contributing to new thought-leadership material around how emerging technologies, such as AI and blockchain, can help to address challenges these bodies face in discharging their responsibilities.,
+        "One of sixteen school leavers selected for this programme from over one thousand candidates. The second half of the internship was spent working in a Business Development role, reporting directly to a Global Managing Director. Responsibilities included preparing detailed reports on a range of customs and border agencies, as well as contributing to new thought-leadership material around how emerging technologies, such as AI and blockchain, can help to address challenges these bodies face in discharging their responsibilities.",
     },
   ],
   skills: [
