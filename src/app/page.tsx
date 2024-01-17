@@ -41,7 +41,7 @@ export default function Page() {
                   asChild
                 >
                   <a href={`mailto:${RESUME_DATA.contact.email}`}>
-                    <MailIcon className="size-4"/>
+                    <MailIcon className="size-4" />
                   </a>
                 </Button>
               ) : null}
@@ -65,8 +65,8 @@ export default function Page() {
                   size="icon"
                   asChild
                 >
-                  <a href={social.Socialurl}>
-                    <social.icon className="size-4">
+                  <a href={social.url}>
+                    <social.icon className="size-4" />
                   </a>
                 </Button>
               ))}
@@ -160,14 +160,14 @@ export default function Page() {
           })}
         </Section>
         <Section>
-          <h2 className="text-xl font-bold">Qualifications</h2>
+          <h2 className="text-xl font-bold">Qualitifcations</h2>
           {RESUME_DATA.qualifications.map((qualifications) => {
             return (
               <Card key={qualifications.issuer}>
                 <CardHeader>
                   <div className="flex items-center justify-between gap-x-2 text-base">
                     <h3 className="font-semibold leading-none">
-                      {qualifications.issuer}
+                      {qualifications.issuer}}
                     </h3>
                     <div className="text-sm tabular-nums text-gray-500">
                       {qualifications.start} - {qualifications.end}
