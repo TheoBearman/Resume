@@ -16,12 +16,14 @@ import {
   ParabolLogo,
   TastyCloudLogo,
   YearProgressLogo,
-} from
+} from "@/images/logos";
+import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
 
 export const RESUME_DATA = {
   name: "Theo Bearman",
   initials: "TB",
-  location: "London, United Kingdom,
+  location: "Wrocław, Poland, CET",
+  locationLink: "https://www.google.com/maps/place/Wrocław",
   about:
     "Full Stack Engineer focused on building products with extra attention to detail",
   summary:
