@@ -29,24 +29,23 @@ export const RESUME_DATA = {
     "I am a dedicated and diligent professional with a diverse background in capital markets and consulting. Coupled with my Undergraduate degree in Human, Social and Political Sciences, I have built up a differentiated set of skills and experiences for someone in the earlier stages of their career.",
   avatarUrl: "https://media.licdn.com/dms/image/D4E03AQFnlu1lszt-bg/profile-displayphoto-shrink_800_800/0/1703346459882?e=1710979200&v=beta&t=jEIpcuLfaSfiT3fvj_ZGsJ6rPgD5znFYHgUmpujOydY,
   personalWebsiteUrl: "https://resume.theobearman.com",
-  contact: {
-    email: "theo@theobearman.com",
-    tel: "+44 7825 990 484,
-    },
+   contact: {
+    email: "bartosz.jarocki@hey.com",
+    tel: "+48530213401",
     social: [
       {
-        name: "LinkedIn",
-        url: "https://www.linkedin.com/in/TheoBearman",
-        icon: LinkedInIcon,
-      },
-      {
         name: "GitHub",
-        url: "https://github.com/TheoBearman",
+        url: "https://github.com/BartoszJarocki",
         icon: GitHubIcon,
       },
       {
+        name: "LinkedIn",
+        url: "https://www.linkedin.com/in/bjarocki/",
+        icon: LinkedInIcon,
+      },
+      {
         name: "X",
-        url: "https://x.com/theobearman",
+        url: "https://x.com/BartoszJarocki",
         icon: XIcon,
       },
     ],
