@@ -66,7 +66,7 @@ export default function Page() {
                   asChild
                 >
                   <a href={social.url}>
-                    <social.icon className="size-4" href={RESUME_DATA.url} target="_blank" rel="noopener noreferrer">
+                    <social.icon className="size-4" target="_blank" rel="noopener noreferrer">
                   </a>
                 </Button>
               ))}
