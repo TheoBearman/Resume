@@ -16,14 +16,12 @@ import {
   ParabolLogo,
   TastyCloudLogo,
   YearProgressLogo,
-} from "@/images/logos";
-import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
+} from
 
 export const RESUME_DATA = {
-  name: "Bartosz Jarocki",
-  initials: "BJ",
-  location: "Wrocław, Poland, CET",
-  locationLink: "https://www.google.com/maps/place/Wrocław",
+  name: "Theo Bearman",
+  initials: "TB",
+  location: "London, United Kingdom,
   about:
     "Full Stack Engineer focused on building products with extra attention to detail",
   summary:
