@@ -24,7 +24,7 @@ export const RESUME_DATA = {
   initials: "TB",
   location: "London, United Kingdom",
   about:
-    "Career Transition",
+    "Ex-City Banker | Looking to Career Transition into AI Ethics, Public Policy, Consulting or FinTech",
   summary:
     "I am a dedicated and diligent professional with a diverse background in capital markets and consulting. Coupled with my Undergraduate degree in Human, Social and Political Sciences, I have built up a differentiated set of skills and experiences for someone in the earlier stages of their career.",
   avatarUrl: "https://media.licdn.com/dms/image/D4E03AQFnlu1lszt-bg/profile-displayphoto-shrink_800_800/0/1703346459882?e=1710979200&v=beta&t=jEIpcuLfaSfiT3fvj_ZGsJ6rPgD5znFYHgUmpujOydY",
@@ -62,7 +62,7 @@ export const RESUME_DATA = {
   ],
   qualifications: [
     {
-      issuer: "University of Cambridge",
+      issuer: ",
       qualification: "Bachelor's Degree in Human Social and Political Sciences",
       start: "2017",
       end: "2020",
@@ -72,20 +72,16 @@ export const RESUME_DATA = {
   ],
   work: [
     {
-      company: "Parabol",
-      link: "https://parabol.co",
-      title: "Senior Full Stack Developer",
-      logo: ParabolLogo,
-      start: "2021",
-      end: "2024",
+      company: "HSBC",
+      title: "High Touch UK & Pan-European Equity Sales Trader",
+      start: "September 2021",
+      end: "December 2023",
       description:
-        "Implemented new features, led squad, worked on improving the way developers ship the code, started migration from Emotion to Tailwind CSS and more. Technologies: React, TypeScript, GraphQL",
+        "High Touch Cash Equity Sales Trader primarily working in the UK and Developed European markets. Coverage for a diverse client base including: Hedge Funds; SWFs; Asset Managers and Pension Funds. Working experience of CEEMEA and Asian markets as well as Programme Trading, developed during a four-month assignment to Paris. Other roles include: Assistant Product Owner for strategic IOI platforms; Front Office point-of-contact for algo and quant development and testing; ECM market analysis; Research, specialist sales and corporate access distribution; Business development and oversight of new client onboarding.",
     },
     {
       company: "Clevertech",
-      link: "https://clevertech.biz",
       title: "Lead Android Developer → Full Stack Developer",
-      logo: ClevertechLogo,
       start: "2015",
       end: "2021",
       description:
@@ -93,10 +89,7 @@ export const RESUME_DATA = {
     },
     {
       company: "Jojo Mobile",
-      link: "https://bsgroup.eu/",
-      badges: [],
       title: "Android Developer → Lead Android Developer",
-      logo: JojoMobileLogo,
       start: "2012",
       end: "2015",
       description:
@@ -104,7 +97,6 @@ export const RESUME_DATA = {
     },
     {
       company: "Nokia Siemens Networks",
-      link: "https://www.nokia.com",
       title: "C/C++ Developer",
       logo: NSNLogo,
       start: "2010",
