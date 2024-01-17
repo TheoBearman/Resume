@@ -66,7 +66,7 @@ export default function Page() {
                   asChild
                 >
                   <a href={social.url}>
-                    <social.icon className="size-4" />
+                    <social.icon className="size-4" target="_blank"/>
                   </a>
                 </Button>
               ))}
