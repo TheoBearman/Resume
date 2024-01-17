@@ -156,7 +156,7 @@ export default function Page() {
                       {qualifications.issuer}
                     </h3>
                     <div className="text-sm tabular-nums text-gray-500">
-                      {qualifications.start} - {qualifications.end}
+                      {qualifications.awarded}
                     </div>
                   </div>
                 </CardHeader>

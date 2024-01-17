@@ -73,8 +73,19 @@ export const RESUME_DATA = {
       issuer: "LSE Online",
       issuerlink: "https://lse.credential.getsmarter.com/14e37e04-ac93-4dd8-bd1d-25f8bab44eb7",
       qualification: "Ethics of AI",
-      start: "2017",
-      end: "2020",
+      awarded: "December 2023",
+    },
+    {
+      issuer: "Fitch Learning",
+      issuerlink: "",
+      qualification: "ESG Fundamentals Certificate",
+      awarded: "May 2022",
+    },
+    {
+      issuer: "The CISI",
+      issuerlink: "",
+      qualification: "Level 3 Certificate in Investment Operations (Securities, Derivatives and Regulations)",
+      awarded: "October 2020",
     },
   ],
   work: [
