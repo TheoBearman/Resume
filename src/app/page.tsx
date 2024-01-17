@@ -160,14 +160,14 @@ export default function Page() {
           })}
         </Section>
         <Section>
-          <h2 className="text-xl font-bold">Qualitifcations</h2>
+          <h2 className="text-xl font-bold">Qualifications</h2>
           {RESUME_DATA.qualifications.map((qualifications) => {
             return (
               <Card key={qualifications.issuer}>
                 <CardHeader>
                   <div className="flex items-center justify-between gap-x-2 text-base">
                     <h3 className="font-semibold leading-none">
-                      {qualifications.issuer}}
+                      {qualifications.issuer}
                     </h3>
                     <div className="text-sm tabular-nums text-gray-500">
                       {qualifications.start} - {qualifications.end}
