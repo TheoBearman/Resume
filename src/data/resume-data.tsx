@@ -54,16 +54,16 @@ export const RESUME_DATA = {
     {
       school: "University of Cambridge",
       degree: "Bachelor's Degree in Human Social and Political Sciences",
-      start: "2011",
-      end: "2016",
+      start: "2017",
+      end: "2020",
       description:
         "Double First Class Honours",
     },
     {
       school: "University College School, London",
       degree: "A Levels",
-      start: "2017",
-      end: "2020",
+      start: "2011",
+      end: "2016",
       description:
         "Government and Politics (A*), History (A*), Geography (A*)",
     },
@@ -114,9 +114,41 @@ export const RESUME_DATA = {
         "One of sixteen school leavers selected for this programme from over one thousand candidates. The second half of the internship was spent working in a Business Development role, reporting directly to a Global Managing Director. Responsibilities included preparing detailed reports on a range of customs and border agencies, as well as contributing to new thought-leadership material around how emerging technologies, such as AI and blockchain, can help to address challenges these bodies face in discharging their responsibilities.",
     },
   ],
+  awards: [
+    {
+      issuer: "Department of Sociology, University of Cambridge",
+      award: "The Sociology Part IIA Polity Prize",
+      awarded: "June 2019",
+    },
+    {
+      issuer: "Jesus College, University of Cambridge",
+      award: "Benefactor’s (2004) Prize",
+      awarded: "June 2019",
+      description: "In recognition of outstanding academic performance in any part of the Tripos."
+    },
+    {
+      issuer: "Jesus College, University of Cambridge",
+      award: "Scholar of the College",
+      awarded: "June 2019",
+    },
+    {
+      issuer: "Jesus College, University of Cambridge",
+      award: "Exhibitioner of the College",
+      awarded: "June 2019",
+    },
+    {
+      issuer: "University College School",
+      award: "Seifert Politics Prize",
+      awarded: "May 2016",
+    },
+    {
+      issuer: "University College School",
+      award: "Co-Head of Evans House",
+      awarded: "September 2015",
+    },
+  ],
   skills: [
     "Research",
-    "Public Speaking",
     "Investing",
     "HTML",
     "TypeScript",

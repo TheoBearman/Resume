@@ -166,6 +166,29 @@ export default function Page() {
           })}
         </Section>
         <Section>
+          <h2 className="text-xl font-bold">Awards & Honours</h2>
+          {RESUME_DATA.awards.map((awards) => {
+            return (
+              <Card key={awards.issuer}>
+                <CardHeader>
+                  <div className="flex items-center justify-between gap-x-2 text-base">
+                    <h3 className="font-semibold leading-none">
+                      {awards.issuer}
+                    </h3>
+                    <div className="text-sm tabular-nums text-gray-500">
+                      {awards.awarded}
+                    </div>
+                  </div>
+                </CardHeader>
+                <CardContent className="mt-2">{awards.award}</CardContent>
+                 <CardContent className="mt-2 text-xs">
+                  {education.description}
+                </CardContent>
+              </Card>
+            );
+          })}
+        </Section>
+        <Section>
           <h2 className="text-xl font-bold">Skills</h2>
           <div className="flex flex-wrap gap-1">
             {RESUME_DATA.skills.map((skill) => {
