@@ -75,8 +75,6 @@ export const RESUME_DATA = {
       qualification: "Ethics of AI",
       start: "2017",
       end: "2020",
-      description:
-        "Double First Class Honours",
     },
   ],
   work: [
