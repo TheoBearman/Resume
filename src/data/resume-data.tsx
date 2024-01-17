@@ -53,11 +53,11 @@ export const RESUME_DATA = {
   education: [
     {
       school: "University of Cambridge",
-      degree: "Bachelor's Degree in Human Social and Political Sciences,
+      degree: "Bachelor's Degree in Human Social and Political Sciences",
       start: "2017",
       end: "2020",
       description:
-      "Double First Class Honours",
+        "Double First Class Honours",
     },
   ],
   work: [
