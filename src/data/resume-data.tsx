@@ -27,35 +27,37 @@ export const RESUME_DATA = {
     "Career Transition",
   summary:
     "I am a dedicated and diligent professional with a diverse background in capital markets and consulting. Coupled with my Undergraduate degree in Human, Social and Political Sciences, I have built up a differentiated set of skills and experiences for someone in the earlier stages of their career.",
-  avatarUrl: "https://avatars.githubusercontent.com/u/1017620?v=4",
-  personalWebsiteUrl: "https://jarocki.me",
+  avatarUrl: "https://media.licdn.com/dms/image/D4E03AQFnlu1lszt-bg/profile-displayphoto-shrink_800_800/0/1703346459882?e=1710979200&v=beta&t=jEIpcuLfaSfiT3fvj_ZGsJ6rPgD5znFYHgUmpujOydY,
+  personalWebsiteUrl: "https://resume.theobearman.com",
   contact: {
-    email: "bartosz.jarocki@hey.com",
-    tel: "+48530213401",
+    email: "theo@theobearman.com",
+    tel: "+44 7825 990 484,
     social: [
       {
-        name: "GitHub",
-        url: "https://github.com/BartoszJarocki",
-        icon: GitHubIcon,
-      },
-      {
         name: "LinkedIn",
-        url: "https://www.linkedin.com/in/bjarocki/",
+        url: "https://www.linkedin.com/in/TheoBearman",
         icon: LinkedInIcon,
       },
       {
+        name: "GitHub",
+        url: "https://github.com/TheoBearman",
+        icon: GitHubIcon,
+      },
+      {
         name: "X",
-        url: "https://x.com/BartoszJarocki",
+        url: "https://x.com/theobearman",
         icon: XIcon,
       },
     ],
   },
   education: [
     {
-      school: "Wrocław University of Technology",
-      degree: "Bachelor's Degree in Control systems engineering and Robotics",
-      start: "2007",
-      end: "2010",
+      school: "Jesus College, University of Cambridge",
+      degree: "Bachelor's Degree in Human, Social and Political Sciences",
+      start: "2017",
+      end: "2020",
+      description:
+        "Double First Class Honours",
     },
   ],
   work: [

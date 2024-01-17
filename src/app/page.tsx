@@ -26,7 +26,7 @@ export default function Page() {
             </p>
             <p className="max-w-md items-center text-pretty font-mono text-xs text-muted-foreground">
               <a
-                className="inline-flex gap-x-1.5 align-baseline leading-none hover:underline"
+                className="inline-flex gap-x-1.5 align-baseline leading-none"
               >
                 <GlobeIcon className="size-3" />
                 {RESUME_DATA.location}
