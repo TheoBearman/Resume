@@ -54,16 +54,25 @@ export const RESUME_DATA = {
     {
       school: "University of Cambridge",
       degree: "Bachelor's Degree in Human Social and Political Sciences",
+      start: "2011",
+      end: "2016",
+      description:
+        "Double First Class Honours",
+    },
+    {
+      school: "University College School, London,
+      degree: "Bachelor's Degree in Human Social and Political Sciences",
       start: "2017",
       end: "2020",
       description:
-        "Double First Class Honours",
+        "A Levels – Government and Politics (A*), History (A*), Geography (A*)",
     },
   ],
   qualifications: [
     {
-      issuer: "University of Cambridge",
-      qualification: "Bachelor's Degree in Human Social and Political Sciences",
+      issuer: "LSE Online",
+      issuerLink: "https://lse.credential.getsmarter.com/14e37e04-ac93-4dd8-bd1d-25f8bab44eb7"
+      qualification: "Ethics of AI",
       start: "2017",
       end: "2020",
       description:
@@ -73,44 +82,36 @@ export const RESUME_DATA = {
   work: [
     {
       company: "HSBC",
-      title: "High Touch UK & Pan-European Equity Sales Trader",
+      title: "High Touch UK & Pan-European Equity Sales Trade, London",
       start: "September 2021",
       end: "December 2023",
       description:
         "High Touch Cash Equity Sales Trader primarily working in the UK and Developed European markets. Coverage for a diverse client base including: Hedge Funds; SWFs; Asset Managers and Pension Funds. Working experience of CEEMEA and Asian markets as well as Programme Trading, developed during a four-month assignment to Paris. Other roles include: Assistant Product Owner for strategic IOI platforms; Front Office point-of-contact for algo and quant development and testing; ECM market analysis; Research, specialist sales and corporate access distribution; Business development and oversight of new client onboarding.",
     },
     {
-      company: "Clevertech",
-      title: "Lead Android Developer → Full Stack Developer",
-      start: "2015",
-      end: "2021",
+      company: "HSBC",
+      title: "Graduate Analyst, London",
+      start: "September 2020",
+      end: "September 2021",
       description:
-        "Created Android mobile apps and led teams for companies like Vision Media, DKMS, or AAA. Built live streaming application for Evercast from scratch. Technologies: Android, Kotlin, React, TypeScript, GraphQL",
+        "One-year graduate programme consisting of the CISI Level 3 Certificate in Investment Operations and three-month rotations on the Corporate FX (spot, swap, forward, options) and Money Markets, Multi-Asset Emerging Markets (FX Spot and Swap, Rates and Credit) and Leveraged Loan sales desks. Exposure to a variety of clients and asset classes, focussing on the development of product knowledge and network building.",
     },
     {
-      company: "Jojo Mobile",
-      title: "Android Developer → Lead Android Developer",
-      start: "2012",
-      end: "2015",
+      company: "Accenture",
+      title: "‘Horizons’ Analyst, London",
+      start: "September 2016",
+      end: "April 2017",
       description:
-        "Built an Android team, created Android apps for biggest Polish companies like LOT, Polskie Radio, Agora, PolskaPress",
-    },
-    {
-      company: "Nokia Siemens Networks",
-      title: "C/C++ Developer",
-      logo: NSNLogo,
-      start: "2010",
-      end: "2012",
-      description: "Creating and testing software for LTE base stations",
+        "One of sixteen school leavers selected for this programme from over one thousand candidates. The second half of the internship was spent working in a Business Development role, reporting directly to a Global Managing Director. Responsibilities included preparing detailed reports on a range of customs and border agencies, as well as contributing to new thought-leadership material around how emerging technologies, such as AI and blockchain, can help to address challenges these bodies face in discharging their responsibilities.,
     },
   ],
   skills: [
-    "JavaScript",
+    "Research"
+    "Public Speaking"
+    "Investing"
+    "HTML",
     "TypeScript",
-    "React/Next.js/Remix",
-    "Node.js",
-    "GraphQL",
-    "Relay",
-    "WebRTC",
+    "Bloomberg Terminal",
+    "Microsoft Office Suite",
   ],
 } as const;
