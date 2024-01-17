@@ -66,7 +66,7 @@ export default function Page() {
                   asChild
                 >
                   <a href={social.Socialurl}>
-                    <social.icon className="size-4" href={RESUME_DATA.Socialurl} target="_blank" rel="noopener noreferrer">
+                    <social.icon className="size-4" />
                   </a>
                 </Button>
               ))}
@@ -167,7 +167,7 @@ export default function Page() {
                 <CardHeader>
                   <div className="flex items-center justify-between gap-x-2 text-base">
                     <h3 className="font-semibold leading-none">
-                      {qualifications.issuer}
+                      {qualifications.issuer}}
                     </h3>
                     <div className="text-sm tabular-nums text-gray-500">
                       {qualifications.start} - {qualifications.end}
