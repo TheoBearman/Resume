@@ -152,6 +152,9 @@ export default function Page() {
                   </div>
                 </CardHeader>
                 <CardContent className="mt-2">{education.degree}</CardContent>
+                <CardContent className="mt-2 text-xs">
+                  {education.description}
+                </CardContent>
               </Card>
             );
           })}

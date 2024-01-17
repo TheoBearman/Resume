@@ -45,17 +45,19 @@ export const RESUME_DATA = {
       },
       {
         name: "X",
-        url: "https://x.com/BartoszJarocki",
+        url: "https://x.com/theobearman",
         icon: XIcon,
       },
     ],
   },
   education: [
     {
-      school: "Wrocław University of Technology",
-      degree: "Bachelor's Degree in Control systems engineering and Robotics",
-      start: "2007",
-      end: "2010",
+      school: "University of Cambridge",
+      degree: "Bachelor's Degree in Human Social and Political Sciences,
+      start: "2017",
+      end: "2020",
+      description:
+      "Double First Class Honours",
     },
   ],
   work: [
