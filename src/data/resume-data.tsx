@@ -71,7 +71,7 @@ export const RESUME_DATA = {
   qualifications: [
     {
       issuer: "LSE Online",
-      issuerLink: "https://lse.credential.getsmarter.com/14e37e04-ac93-4dd8-bd1d-25f8bab44eb7"
+      issuerLink: "https://lse.credential.getsmarter.com/14e37e04-ac93-4dd8-bd1d-25f8bab44eb7",
       qualification: "Ethics of AI",
       start: "2017",
       end: "2020",
