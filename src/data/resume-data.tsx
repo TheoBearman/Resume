@@ -32,6 +32,7 @@ export const RESUME_DATA = {
   contact: {
     email: "theo@theobearman.com",
     tel: "+44 7825 990 484,
+    },
     social: [
       {
         name: "LinkedIn",
