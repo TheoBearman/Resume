@@ -60,7 +60,7 @@ export const RESUME_DATA = {
         "Double First Class Honours",
     },
     {
-      school: "University College School, London,
+      school: "University College School, London",
       degree: "A Levels",
       start: "2017",
       end: "2020",
