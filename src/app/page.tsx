@@ -152,7 +152,7 @@ export default function Page() {
               <Card key={qualifications.issuer}>
                 <CardHeader>
                   <div className="flex items-center justify-between gap-x-2 text-base">
-                    <h3 className="font-semibold leading-none hover:underline" href={RESUME_DATA.qualifications.issuerlink} target="_blank" rel="noopener noreferrer">
+                    <h3 className="font-semibold leading-none hover:underline" href={qualifications.issuerlink} target="_blank" rel="noopener noreferrer">
                       {qualifications.issuer}
                     </h3>
                     <div className="text-sm tabular-nums text-gray-500">
