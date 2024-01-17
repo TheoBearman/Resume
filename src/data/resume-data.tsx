@@ -119,7 +119,7 @@ export const RESUME_DATA = {
       issuer: "Department of Sociology, University of Cambridge",
       award: "The Sociology Part IIA Polity Prize",
       awarded: "June 2019",
-      what: "",
+      what: "Candidate in the Sociology stream of the Human, Social and Political Science Tripos, Part IIA with the best overall average and an overall First.",
     },
     {
       issuer: "Jesus College, University of Cambridge",
