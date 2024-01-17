@@ -104,9 +104,9 @@ export const RESUME_DATA = {
     },
   ],
   skills: [
-    "Research"
-    "Public Speaking"
-    "Investing"
+    "Research",
+    "Public Speaking",
+    "Investing",
     "HTML",
     "TypeScript",
     "Bloomberg Terminal",
