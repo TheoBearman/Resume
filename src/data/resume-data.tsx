@@ -119,32 +119,37 @@ export const RESUME_DATA = {
       issuer: "Department of Sociology, University of Cambridge",
       award: "The Sociology Part IIA Polity Prize",
       awarded: "June 2019",
+      what: "",
     },
     {
       issuer: "Jesus College, University of Cambridge",
       award: "Benefactor’s (2004) Prize",
       awarded: "June 2019",
-      description: "In recognition of outstanding academic performance in any part of the Tripos.",
+      what: "In recognition of outstanding academic performance in any part of the Tripos.",
     },
     {
       issuer: "Jesus College, University of Cambridge",
       award: "Scholar of the College",
       awarded: "June 2019",
+      what: "",
     },
     {
       issuer: "Jesus College, University of Cambridge",
       award: "Exhibitioner of the College",
       awarded: "June 2019",
+      what: "",
     },
     {
       issuer: "University College School",
       award: "Seifert Politics Prize",
       awarded: "May 2016",
+      what: "",
     },
     {
       issuer: "University College School",
       award: "Co-Head of Evans House",
       awarded: "September 2015",
+      what: "",
     },
   ],
   skills: [
