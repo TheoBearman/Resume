@@ -182,7 +182,7 @@ export default function Page() {
                 </CardHeader>
                 <CardContent className="mt-2">{awards.award}</CardContent>
                  <CardContent className="mt-2 text-xs">
-                  {awards.description}
+                  {awards:description}
                 </CardContent>
               </Card>
             );
