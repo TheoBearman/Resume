@@ -28,14 +28,14 @@ export const RESUME_DATA = {
   summary:
     "I am a dedicated and diligent professional with a diverse background in capital markets and consulting. Coupled with my Undergraduate degree in Human, Social and Political Sciences, I have built up a differentiated set of skills and experiences for someone in the earlier stages of their career.",
   avatarUrl: "https://avatars.githubusercontent.com/u/1017620?v=4",
-  personalWebsiteUrl: "https://resume.theobearman.com",
+  personalWebsiteUrl: "https://jarocki.me",
   contact: {
-    email: "theo@theobearman.com",
-    tel: "+44 7825 990 484,
+    email: "bartosz.jarocki@hey.com",
+    tel: "+48530213401",
     social: [
       {
         name: "GitHub",
-        url: "https://github.com/TheoBearman",
+        url: "https://github.com/BartoszJarocki",
         icon: GitHubIcon,
       },
       {
