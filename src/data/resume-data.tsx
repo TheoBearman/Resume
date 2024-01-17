@@ -62,7 +62,7 @@ export const RESUME_DATA = {
   ],
   qualifications: [
     {
-      issuer: ",
+      issuer: "University of Cambridge",
       qualification: "Bachelor's Degree in Human Social and Political Sciences",
       start: "2017",
       end: "2020",
