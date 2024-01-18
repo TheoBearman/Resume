@@ -91,11 +91,11 @@ export const RESUME_DATA = {
   work: [
     {
       company: "HSBC",
-      title: "High Touch UK & Pan-European Equity Sales Trader, London",
+      title: "High-Touch UK & Pan-European Equity Sales Trader, London",
       start: "September 2021",
       end: "December 2023",
       description:
-        "High Touch Cash Equity Sales Trader primarily working in the UK and Developed European markets. Coverage for a diverse client base including: Hedge Funds; SWFs; Asset Managers and Pension Funds. Working experience of CEEMEA and Asian markets as well as Programme Trading, developed during a four-month assignment to Paris. Other roles include: Assistant Product Owner for strategic IOI platforms; Front Office point-of-contact for algo and quant development and testing; ECM market analysis; Research, specialist sales and corporate access distribution; Business development and oversight of new client onboarding.",
+        "High Touch Cash Equity Sales Trader primarily working in the UK and Developed European markets. Coverage for a diverse client base including: Hedge Funds; SWFs; Asset Managers and Pension Funds. Working experience of CEEMEA and Asian markets as well as Programme Trading, developed during a four-month assignment to Paris. Other roles included: Assistant Product Owner for strategic IOI platforms; Front Office point-of-contact for algo and quant development and testing; ECM market analysis; Research, specialist sales and corporate access distribution; Business development and management of new client onboarding.",
     },
     {
       company: "HSBC",
@@ -111,7 +111,7 @@ export const RESUME_DATA = {
       start: "September 2016",
       end: "April 2017",
       description:
-        "One of sixteen school leavers selected for this programme from over one thousand candidates. The second half of the internship was spent working in a Business Development role, reporting directly to a Global Managing Director. Responsibilities included preparing detailed reports on a range of customs and border agencies, as well as contributing to new thought-leadership material around how emerging technologies, such as AI and blockchain, can help to address challenges these bodies face in discharging their responsibilities.",
+        "One of sixteen school leavers selected from over one thousand candidates for this programme. The second half of the internship was spent working in a Business Development role, reporting directly to a Global Managing Director. Responsibilities included preparing detailed reports on a range of customs and border agencies, as well as contributing to new thought-leadership material around how emerging technologies, such as AI and blockchain, can help to address challenges these bodies face in discharging their responsibilities.",
     },
   ],
   awards: [
