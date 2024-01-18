@@ -153,11 +153,17 @@ export const RESUME_DATA = {
     },
   ],
   skills: [
-    "Research",
+    "Responsible AI",
     "Investing",
-    "HTML",
-    "TypeScript",
+    "Aviation",
+    "Cooking",
+    "Podcasts",
+    "Reading",
+    "Research",
     "Bloomberg Terminal",
     "Microsoft Office Suite",
+    "HTML",
+    "CSS"
+    "TypeScript"
   ],
 } as const;
