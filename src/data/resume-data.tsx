@@ -91,7 +91,7 @@ export const RESUME_DATA = {
   work: [
     {
       company: "HSBC",
-      title: "High Touch UK & Pan-European Equity Sales Trade, London",
+      title: "High Touch UK & Pan-European Equity Sales Trader, London",
       start: "September 2021",
       end: "December 2023",
       description:
