@@ -163,7 +163,8 @@ export const RESUME_DATA = {
     "Bloomberg Terminal",
     "Microsoft Office Suite",
     "HTML",
-    "CSS"
-    "TypeScript"
+    "CSS",
+    "TypeScript",
+    "Azure ML Studio",
   ],
 } as const;
