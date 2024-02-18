@@ -31,8 +31,6 @@ export const RESUME_DATA = {
   personalWebsiteUrl: "https://resume.theobearman.com",
   contact: {
     email: "twmb97@hotmail.com",
-    // @ts-ignore
-    tel: "+44 7825 990 484",
     social: [
       {
         name: "LinkedIn",
