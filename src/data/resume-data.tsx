@@ -95,7 +95,7 @@ export const RESUME_DATA = {
       start: "January 2024",
       end: "Present",
       description:
-        "Mental Health Policy Researcher for Luciana Berger (former Labour Party MP for Liverpool Wavertree and Shadow Minister for Mental Health). Luciana has recently been asked by The Labour Party to conduct a review which will deliver recommendations on a cross-government strategy for the long-term prevention of mental ill-health. I am working with Luciana on this review as her researcher.",
+        "Luciana Berger (former Labour Party MP for Liverpool Wavertree and Shadow Minister for Mental Health) has recently been asked by The Labour Party to conduct a review which will deliver recommendations on a cross-government strategy for the long-term prevention of mental ill-health. I am working with Luciana on this review as her researcher.",
     },
     {
       company: "HSBC",
