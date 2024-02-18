@@ -91,7 +91,7 @@ export const RESUME_DATA = {
   work: [
      {
       company: "Luciana Berger",
-      title: "High-Touch UK & Pan-European Equity Sales Trader, London",
+      title: "Mental Health Policy Researcher, London",
       start: "January 2024",
       end: "Present",
       description:
