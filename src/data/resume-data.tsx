@@ -161,7 +161,7 @@ export const RESUME_DATA = {
   ],
   skills: [
     "Responsible AI",
-    "Investing",
+    "Equity Investing",
     "Aviation",
     "Cooking",
     "Podcasts",
