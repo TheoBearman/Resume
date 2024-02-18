@@ -24,7 +24,7 @@ export const RESUME_DATA = {
   initials: "TB",
   location: "London, United Kingdom",
   about:
-    "Ex-City Banker | Looking to Career Transition into AI Ethics, Public Policy, Consulting or FinTech",
+    "Mental Health Policy | Looking to Career Transition into AI Ethics, Public Policy, Consulting or FinTech",
   summary:
     "I am a dedicated and diligent professional with a diverse background in capital markets and consulting. Coupled with my Undergraduate degree in Human, Social and Political Sciences, I have built up a differentiated set of skills and experiences for someone in the earlier stages of their career.",
   avatarUrl: "https://media.licdn.com/dms/image/D4E03AQFnlu1lszt-bg/profile-displayphoto-shrink_800_800/0/1703346459882?e=1710979200&v=beta&t=jEIpcuLfaSfiT3fvj_ZGsJ6rPgD5znFYHgUmpujOydY",
@@ -89,6 +89,14 @@ export const RESUME_DATA = {
     },
   ],
   work: [
+     {
+      company: "Luciana Berger",
+      title: "High-Touch UK & Pan-European Equity Sales Trader, London",
+      start: "January 2024",
+      end: "Present",
+      description:
+        "Mental Health Policy Researcher for Luciana Berger (former Labour Party MP for Liverpool Wavertree and Shadow Minister for Mental Health). Luciana has recently been asked by The Labour Party to conduct a review which will deliver recommendations on a cross-government strategy for the long-term prevention of mental ill-health. I am working with Luciana on this review as her researcher.",
+    },
     {
       company: "HSBC",
       title: "High-Touch UK & Pan-European Equity Sales Trader, London",
