@@ -76,15 +76,21 @@ export const RESUME_DATA = {
     },
     {
       issuer: "Fitch Learning",
-      issuerlink: "",
+      issuerlink: "https://1drv.ms/b/s!ArPsDGXjGTZoiJM2zEM9iEz49mIDBQ?e=mGCLCV",
       qualification: "ESG Fundamentals Certificate",
       awarded: "May 2022",
     },
     {
       issuer: "The CISI",
-      issuerlink: "",
+      issuerlink: "https://1drv.ms/b/s!ArPsDGXjGTZoiIRMOabFBHHTukXeVw?e=96zTsR",
       qualification: "Level 3 Certificate in Investment Operations (Securities, Derivatives and Regulations)",
       awarded: "October 2020",
+    },
+    {
+      issuer: "Financial Conduct Authority",
+      issuerlink: "https://register.fca.org.uk/s/individual?id=0034G00002nGnr4QAC",
+      qualification: "Certified Person (CF30)",
+      awarded: "November 2020 - December 2023",
     },
   ],
   work: [
