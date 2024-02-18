@@ -30,7 +30,7 @@ export const RESUME_DATA = {
   avatarUrl: "https://media.licdn.com/dms/image/D4E03AQFnlu1lszt-bg/profile-displayphoto-shrink_800_800/0/1703346459882?e=1710979200&v=beta&t=jEIpcuLfaSfiT3fvj_ZGsJ6rPgD5znFYHgUmpujOydY",
   personalWebsiteUrl: "https://resume.theobearman.com",
   contact: {
-    email: "twmb97@hotmail.com",
+    email: "theo@theobearman.com",
     social: [
       {
         name: "LinkedIn",
