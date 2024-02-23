@@ -85,7 +85,7 @@ export default function Page() {
             return (
               <Card key={work.company}>
                 <CardHeader>
-                  <div className="flex items-center justify-between gap-x-2 text-base">
+                  <div className="flex items-center justify-between gap-x-2 text-base text-center">
                     <h3 className="inline-flex items-center justify-center gap-x-1 font-semibold leading-none">
                      <a> {work.company} </a>
                   </h3>
@@ -111,7 +111,7 @@ export default function Page() {
             return (
               <Card key={education.school}>
                 <CardHeader>
-                  <div className="flex items-center justify-between gap-x-2 text-base">
+                  <div className="flex items-center justify-between gap-x-2 text-base text-center">
                     <h3 className="font-semibold leading-none">
                       {education.school}
                     </h3>
@@ -134,7 +134,7 @@ export default function Page() {
             return (
               <Card key={qualifications.issuer}>
                 <CardHeader>
-                  <div className="flex items-center justify-between gap-x-2 text-base">
+                  <div className="flex items-center justify-between gap-x-2 text-base text-center">
                     <h3 className="font-semibold leading-none">
                       {qualifications.issuer}
                     </h3>
@@ -154,7 +154,7 @@ export default function Page() {
             return (
               <Card key={awards.issuer}>
                 <CardHeader>
-                  <div className="flex items-center justify-between gap-x-2 text-base">
+                  <div className="flex items-center justify-between gap-x-2 text-base text-center">
                     <h3 className="font-semibold leading-none">
                       {awards.issuer}
                     </h3>
@@ -173,7 +173,7 @@ export default function Page() {
         </Section>
         <Section>
           <h2 className="text-xl font-bold">Skills & Interests</h2>
-          <div className="flex flex-wrap gap-1">
+          <div className="flex flex-wrap gap-1 text-center">
             {RESUME_DATA.skills.map((skill) => {
               return <Badge key={skill}>{skill}</Badge>;
             })}
