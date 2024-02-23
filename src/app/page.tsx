@@ -75,7 +75,7 @@ export default function Page() {
         </div>
         <Section>
           <h2 className="text-xl font-bold">About</h2>
-          <p className="text-pretty font-mono text-sm text-muted-foreground text-center">
+          <p className="text-pretty font-mono text-sm text-muted-foreground text-justify">
             {RESUME_DATA.summary}
           </p>
         </Section>
@@ -85,8 +85,8 @@ export default function Page() {
             return (
               <Card key={work.company}>
                 <CardHeader>
-                  <div className="flex items-center justify-between gap-x-2 text-base text-center">
-                    <h3 className="inline-flex items-center justify-center gap-x-1 font-semibold leading-none text-center">
+                  <div className="flex items-center justify-between gap-x-2 text-base text-justify">
+                    <h3 className="inline-flex items-center justify-center gap-x-1 font-semibold leading-none text-justify">
                      <a> {work.company} </a>
                   </h3>
                     <div className="text-sm tabular-nums text-gray-500">
@@ -98,7 +98,7 @@ export default function Page() {
                     {work.title}
                   </h4>
                 </CardHeader>
-                <CardContent className="mt-2 text-xs text-center">
+                <CardContent className="mt-2 text-xs text-justify">
                   {work.description}
                 </CardContent>
               </Card>
@@ -111,8 +111,8 @@ export default function Page() {
             return (
               <Card key={education.school}>
                 <CardHeader>
-                  <div className="flex items-center justify-between gap-x-2 text-base text-center">
-                    <h3 className="font-semibold leading-none text-center">
+                  <div className="flex items-center justify-between gap-x-2 text-base text-justify">
+                    <h3 className="font-semibold leading-none text-justify">
                       {education.school}
                     </h3>
                     <div className="text-sm tabular-nums text-gray-500">
@@ -121,7 +121,7 @@ export default function Page() {
                   </div>
                 </CardHeader>
                 <CardContent className="mt-2">{education.degree}</CardContent>
-                <CardContent className="mt-2 text-xs text-center">
+                <CardContent className="mt-2 text-xs text-justify">
                   {education.description}
                 </CardContent>
               </Card>
@@ -134,7 +134,7 @@ export default function Page() {
             return (
               <Card key={qualifications.issuer}>
                 <CardHeader>
-                  <div className="flex items-center justify-between gap-x-2 text-base text-center">
+                  <div className="flex items-center justify-between gap-x-2 text-base text-justify">
                     <h3 className="font-semibold leading-none">
                       {qualifications.issuer}
                     </h3>
@@ -154,7 +154,7 @@ export default function Page() {
             return (
               <Card key={awards.issuer}>
                 <CardHeader>
-                  <div className="flex items-center justify-between gap-x-2 text-base text-center">
+                  <div className="flex items-center justify-between gap-x-2 text-base text-justify">
                     <h3 className="font-semibold leading-none">
                       {awards.issuer}
                     </h3>
@@ -173,7 +173,7 @@ export default function Page() {
         </Section>
         <Section>
           <h2 className="text-xl font-bold">Skills & Interests</h2>
-          <div className="flex flex-wrap gap-1 text-center">
+          <div className="flex flex-wrap gap-1 text-justify">
             {RESUME_DATA.skills.map((skill) => {
               return <Badge key={skill}>{skill}</Badge>;
             })}
