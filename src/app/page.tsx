@@ -75,7 +75,7 @@ export default function Page() {
         </div>
         <Section>
           <h2 className="text-xl font-bold">About</h2>
-          <p className="text-pretty font-mono text-sm text-muted-foreground">
+          <p className="text-pretty font-mono text-sm text-muted-foreground text-center">
             {RESUME_DATA.summary}
           </p>
         </Section>
@@ -86,7 +86,7 @@ export default function Page() {
               <Card key={work.company}>
                 <CardHeader>
                   <div className="flex items-center justify-between gap-x-2 text-base text-center">
-                    <h3 className="inline-flex items-center justify-center gap-x-1 font-semibold leading-none">
+                    <h3 className="inline-flex items-center justify-center gap-x-1 font-semibold leading-none text-center">
                      <a> {work.company} </a>
                   </h3>
                     <div className="text-sm tabular-nums text-gray-500">
@@ -98,7 +98,7 @@ export default function Page() {
                     {work.title}
                   </h4>
                 </CardHeader>
-                <CardContent className="mt-2 text-xs">
+                <CardContent className="mt-2 text-xs text-center">
                   {work.description}
                 </CardContent>
               </Card>
@@ -112,7 +112,7 @@ export default function Page() {
               <Card key={education.school}>
                 <CardHeader>
                   <div className="flex items-center justify-between gap-x-2 text-base text-center">
-                    <h3 className="font-semibold leading-none">
+                    <h3 className="font-semibold leading-none text-center">
                       {education.school}
                     </h3>
                     <div className="text-sm tabular-nums text-gray-500">
@@ -121,7 +121,7 @@ export default function Page() {
                   </div>
                 </CardHeader>
                 <CardContent className="mt-2">{education.degree}</CardContent>
-                <CardContent className="mt-2 text-xs">
+                <CardContent className="mt-2 text-xs text-center">
                   {education.description}
                 </CardContent>
               </Card>
