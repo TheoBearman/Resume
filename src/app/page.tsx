@@ -138,12 +138,12 @@ export default function Page() {
                     <h3 className="font-semibold leading-none">
                       {qualifications.issuer}
                     </h3>
-                    <div className="text-sm tabular-nums text-gray-500 hover:underline" href={qualifications.issuerlink}>
+                    <div className="text-sm tabular-nums text-gray-500">
                       {qualifications.awarded}
                     </div>
                   </div>
                 </CardHeader>
-                <CardContent className="mt-2">{qualifications.qualification}</CardContent>
+                <CardContent className="mt-2 hover:underline" href={qualifications.issuerlink}>{qualifications.qualification}</CardContent>
               </Card>
             );
           })}
