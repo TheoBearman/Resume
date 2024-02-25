@@ -143,7 +143,11 @@ export default function Page() {
                     </div>
                   </div>
                 </CardHeader>
-                <CardContent className="mt-2 hover:underline" href={qualifications.issuerlink}>{qualifications.qualification}</CardContent>
+                <CardContent className="mt-2">
+                  <a className="hover:underline" href={qualifications.issuerlink}>
+                        {qualifications.qualification}
+                  </a>
+                </CardContent>
               </Card>
             );
           })}
