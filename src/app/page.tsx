@@ -144,7 +144,7 @@ export default function Page() {
                   </div>
                 </CardHeader>
                 <CardContent className="mt-2">
-                  <a className="hover:underline" href={qualifications.issuerlink}>
+                  <a className="hover:underline" href={qualifications.issuerlink} target="_blank">
                         {qualifications.qualification}
                   </a>
                 </CardContent>
