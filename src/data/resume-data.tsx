@@ -27,7 +27,7 @@ export const RESUME_DATA = {
     "Mental Health Policy | Looking to Career Transition into AI Ethics, Public Policy, Consulting or FinTech",
   summary:
     "I am a dedicated and diligent professional with a diverse background in capital markets and consulting. Coupled with my Undergraduate degree in Human, Social and Political Sciences, I have built up a differentiated set of skills and experiences for someone in the earlier stages of their career.",
-  avatarUrl: "https://theobearman.com/images/theo.jpeg",
+  avatarUrl: "https://media.licdn.com/dms/image/D4E03AQFnlu1lszt-bg/profile-displayphoto-shrink_800_800/0/1703346459882?e=1716422400&v=beta&t=3ZOP2mpGW-JN-FnklkmmeYcO2aSCMvJfVd2aVZ7AmVs",
   personalWebsiteUrl: "https://resume.theobearman.com",
   contact: {
     email: "theo@theobearman.com",
