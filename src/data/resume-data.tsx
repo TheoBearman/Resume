@@ -52,6 +52,14 @@ export const RESUME_DATA = {
   education: [
     {
       school: "University of Cambridge",
+      degree: "Master of Arts",
+      start: "April 2024",
+      end: "",
+      description:
+        "",
+    }
+    {
+      school: "University of Cambridge",
       degree: "Bachelor's Degree in Human Social and Political Sciences",
       start: "October 2017",
       end: "July 2020",
@@ -98,9 +106,9 @@ export const RESUME_DATA = {
       company: "Luciana Berger",
       title: "Mental Health Policy Researcher, London",
       start: "January 2024",
-      end: "Present",
+      end: "April 2024",
       description:
-        "Luciana Berger (former Labour Party MP for Liverpool Wavertree and Shadow Minister for Mental Health) has recently been asked by The Labour Party to conduct a review which will deliver recommendations on a cross-government strategy for the long-term prevention of mental ill-health. I am supporting Luciana as her researcher for this review.",
+        "Luciana Berger (former Labour Party MP for Liverpool Wavertree and Shadow Minister for Mental Health) has recently been asked by The Labour Party to conduct a review which will deliver recommendations on a cross-government strategy for the long-term prevention of mental ill-health. I supported Luciana as her researcher for this review.",
     },
     {
       company: "HSBC",
