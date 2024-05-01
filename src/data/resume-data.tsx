@@ -54,7 +54,10 @@ export const RESUME_DATA = {
       school: "University of Cambridge",
       degree: "Master of Arts",
       start: "April 2024",
-    }
+      end: "",
+      description:
+        "",
+    },
     {
       school: "University of Cambridge",
       degree: "Bachelor's Degree in Human Social and Political Sciences",
