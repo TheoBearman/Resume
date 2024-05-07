@@ -24,7 +24,7 @@ export const RESUME_DATA = {
   initials: "TB",
   location: "London, United Kingdom",
   about:
-    "Mental Health Policy | Looking to Career Transition into AI Ethics, Public Policy, Consulting or FinTech",
+    "AI Risk Advisor | Central AI Risk Function (CAIRF) | Department for Science, Innovation and Technology (DSIT)",
   summary:
     "I am a dedicated and diligent professional with a diverse background in capital markets and consulting. Coupled with my Undergraduate degree in Human, Social and Political Sciences, I have built up a differentiated set of skills and experiences for someone in the earlier stages of their career.",
   avatarUrl: "https://media.licdn.com/dms/image/D4E03AQFnlu1lszt-bg/profile-displayphoto-shrink_800_800/0/1703346459882?e=1716422400&v=beta&t=3ZOP2mpGW-JN-FnklkmmeYcO2aSCMvJfVd2aVZ7AmVs",
@@ -94,6 +94,14 @@ export const RESUME_DATA = {
     },
   ],
   work: [
+    {
+      company: "Department for Science, Innovation and Technology (DSIT)",
+      title: "AI Risk Advisor",
+      start: "May 2024",
+      end: "Present",
+      description:
+        "Cross-government policy and coordination of AI-exacerbated risks and contingency planning.",
+    },
      {
       company: "Luciana Berger",
       title: "Mental Health Policy Researcher, London",
