@@ -24,7 +24,7 @@ export const RESUME_DATA = {
   initials: "TB",
   location: "London, United Kingdom",
   about:
-    "AI Risk Advisor | Central AI Risk Function (CAIRF) | Department for Science, Innovation and Technology (DSIT)",
+    "AI Risk Adviser | Central AI Risk Function (CAIRF) | Department for Science, Innovation and Technology (DSIT)",
   summary:
     "I am a dedicated and diligent professional with a diverse background in capital markets and consulting. Coupled with my Undergraduate degree in Human, Social and Political Sciences, I have built up a differentiated set of skills and experiences for someone in the earlier stages of their career.",
   avatarUrl: "https://media.licdn.com/dms/image/D4E03AQFnlu1lszt-bg/profile-displayphoto-shrink_800_800/0/1703346459882?e=1716422400&v=beta&t=3ZOP2mpGW-JN-FnklkmmeYcO2aSCMvJfVd2aVZ7AmVs",
