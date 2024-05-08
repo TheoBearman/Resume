@@ -96,7 +96,7 @@ export const RESUME_DATA = {
   work: [
     {
       company: "Department for Science, Innovation and Technology (DSIT)",
-      title: "AI Risk Advisor",
+      title: "AI Risk Adviser",
       start: "May 2024",
       end: "Present",
       description:
