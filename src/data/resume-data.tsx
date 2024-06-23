@@ -27,7 +27,7 @@ export const RESUME_DATA = {
     "AI Risk Adviser | Central AI Risk Function (CAIRF) | Department for Science, Innovation and Technology (DSIT)",
   summary:
     "I am a dedicated and diligent professional with a diverse background in capital markets and consulting. Coupled with my Undergraduate degree in Human, Social and Political Sciences, I have built up a differentiated set of skills and experiences for someone in the earlier stages of their career.",
-  avatarUrl: "https://theobearman.com/images/cv_main.JPEG",
+  avatarUrl: "https://theobearman.com/images/cv.jpeg",
   personalWebsiteUrl: "https://resume.theobearman.com",
   contact: {
     email: "theo@theobearman.com",
