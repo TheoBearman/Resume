@@ -26,8 +26,8 @@ export const RESUME_DATA = {
   about:
     "AI Risk Adviser | Central AI Risk Function (CAIRF) | Department for Science, Innovation and Technology (DSIT)",
   summary:
-    "I am a dedicated and diligent professional with a diverse background in capital markets and consulting. Coupled with my Undergraduate degree in Human, Social and Political Sciences, I have built up a differentiated set of skills and experiences for someone in the earlier stages of their career.",
-  avatarUrl: "",
+    "Theo is a HSPS graduate from Jesus College, Cambridge, whose career to date has spanned consulting, financial services and the public sector. A participant in Accenture’s Horizons programme during his gap year, Theo initially worked on HSBC’s trading floors in London and Paris after completing his degree at Cambridge in 2020. Motivated by a keen interest in the socio-political implications of AI and captivated by ChatGPT taking the world by storm after its release, Theo left finance at the end of 2023 and joined the growing AI Policy Directorate at the Department for Science, Innovation and Technology in Whitehall. He currently serves as an AI Risk Adviser.",
+  avatarUrl: "https://media.licdn.com/dms/image/v2/D4E03AQF9CNbceeP8ug/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1728206241480?e=1733961600&v=beta&t=5zpCw6bo8zMOCTPXv160pafYysXgJ9aV6I81QyHFM6w",
   personalWebsiteUrl: "https://resume.theobearman.com",
   contact: {
     email: "theo@theobearman.com",
