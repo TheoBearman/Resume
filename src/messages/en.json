@@ -1,0 +1,45 @@
+{
+  "about": "About",
+  "experience": "Work Experience",
+  "education": "Education",
+  "qualifications": "Qualifications & Certifications",
+  "awards": "Awards & Honours",
+  "skills": "Skills & Interests",
+  "traditional": "Traditional",
+  "timeline": "Timeline",
+  "location": "Location",
+  "printResume": "Print Resume",
+  "downloadPDF": "Download as PDF",
+  "present": "Present",
+  "months": {
+    "one": "{count} month",
+    "other": "{count} months"
+  },
+  "years": {
+    "one": "{count} year",
+    "other": "{count} years"
+  },
+  "and": "and",
+  "details": {
+    "keyAchievements": "Key Achievements",
+    "responsibilities": "Responsibilities",
+    "technologiesSkills": "Technologies & Skills"
+  },
+  "timelineTotalDuration": "Total Duration: {duration}",
+  "company": "Company",
+  "role": "Role",
+  "date": "Date",
+  "description": "Description",
+  "degree": "Degree",
+  "school": "School",
+  "award": "Award",
+  "issuer": "Issuer",
+  "search": "Search resume...",
+  "colorTheme": "Color Theme",
+  "mode": "Mode",
+  "light": "Light",
+  "dark": "Dark",
+  "default": "Default",
+  "blue": "Blue",
+  "sepia": "Sepia"
+} 

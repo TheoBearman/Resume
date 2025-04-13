@@ -5,65 +5,47 @@
 @layer base {
   :root {
     --background: 0 0% 100%;
-    --foreground: 224 71.4% 4.1%;
-
+    --foreground: 222.2 84% 4.9%;
     --card: 0 0% 100%;
-    --card-foreground: 224 71.4% 4.1%;
-
+    --card-foreground: 222.2 84% 4.9%;
     --popover: 0 0% 100%;
-    --popover-foreground: 224 71.4% 4.1%;
-
-    --primary: 220.9 39.3% 11%;
-    --primary-foreground: 210 20% 98%;
-
-    --secondary: 220 14.3% 95.9%;
-    --secondary-foreground: 220.9 39.3% 11%;
-
-    --muted: 220 14.3% 95.9%;
-    --muted-foreground: 220 8.9% 46.1%;
-
-    --accent: 220 14.3% 95.9%;
-    --accent-foreground: 220.9 39.3% 11%;
-
+    --popover-foreground: 222.2 84% 4.9%;
+    --primary: 222.2 47.4% 11.2%;
+    --primary-foreground: 210 40% 98%;
+    --secondary: 210 40% 96.1%;
+    --secondary-foreground: 222.2 47.4% 11.2%;
+    --muted: 210 40% 96.1%;
+    --muted-foreground: 215.4 16.3% 46.9%;
+    --accent: 210 40% 96.1%;
+    --accent-foreground: 222.2 47.4% 11.2%;
     --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 210 20% 98%;
-
-    --border: 220 13% 91%;
-    --input: 220 13% 91%;
-    --ring: 224 71.4% 4.1%;
-
+    --destructive-foreground: 210 40% 98%;
+    --border: 214.3 31.8% 91.4%;
+    --input: 214.3 31.8% 91.4%;
+    --ring: 222.2 84% 4.9%;
     --radius: 0.5rem;
-    --textAlign: justify;
   }
 
   .dark {
-    --background: 224 71.4% 4.1%;
-    --foreground: 210 20% 98%;
-
-    --card: 224 71.4% 4.1%;
-    --card-foreground: 210 20% 98%;
-
-    --popover: 224 71.4% 4.1%;
-    --popover-foreground: 210 20% 98%;
-
-    --primary: 210 20% 98%;
-    --primary-foreground: 220.9 39.3% 11%;
-
-    --secondary: 215 27.9% 16.9%;
-    --secondary-foreground: 210 20% 98%;
-
-    --muted: 215 27.9% 16.9%;
-    --muted-foreground: 217.9 10.6% 64.9%;
-
-    --accent: 215 27.9% 16.9%;
-    --accent-foreground: 210 20% 98%;
-
+    --background: 222.2 84% 4.9%;
+    --foreground: 210 40% 98%;
+    --card: 222.2 84% 4.9%;
+    --card-foreground: 210 40% 98%;
+    --popover: 222.2 84% 4.9%;
+    --popover-foreground: 210 40% 98%;
+    --primary: 210 40% 98%;
+    --primary-foreground: 222.2 47.4% 11.2%;
+    --secondary: 217.2 32.6% 17.5%;
+    --secondary-foreground: 210 40% 98%;
+    --muted: 217.2 32.6% 17.5%;
+    --muted-foreground: 215 20.2% 65.1%;
+    --accent: 217.2 32.6% 17.5%;
+    --accent-foreground: 210 40% 98%;
     --destructive: 0 62.8% 30.6%;
-    --destructive-foreground: 210 20% 98%;
-
-    --border: 215 27.9% 16.9%;
-    --input: 215 27.9% 16.9%;
-    --ring: 216 12.2% 83.9%;
+    --destructive-foreground: 210 40% 98%;
+    --border: 217.2 32.6% 17.5%;
+    --input: 217.2 32.6% 17.5%;
+    --ring: 212.7 26.8% 83.9%;
   }
 }
 
@@ -76,6 +58,159 @@
   }
 }
 
-.print-force-new-page {
-  page-break-before: always;
+/* PDF Generation Styles */
+body.generating-pdf {
+  background-color: white !important;
+}
+
+body.generating-pdf .pdf-export {
+  background-color: white !important;
+  color: black !important;
+  width: 100% !important;
+  max-width: none !important;
+  padding: 20px !important;
+}
+
+body.generating-pdf .bg-card,
+body.generating-pdf .card {
+  background-color: white !important;
+  border-color: #e5e7eb !important;
+  box-shadow: none !important;
+  margin-bottom: 20px !important;
+}
+
+body.generating-pdf .pdf-export h1,
+body.generating-pdf .pdf-export h2,
+body.generating-pdf .pdf-export h3,
+body.generating-pdf .pdf-export h4 {
+  color: #000000 !important;
+  margin-bottom: 8px !important;
+}
+
+body.generating-pdf .pdf-export p {
+  page-break-inside: avoid;
+}
+
+body.generating-pdf .text-muted-foreground {
+  color: #6b7280 !important;
+}
+
+body.generating-pdf .text-foreground {
+  color: #000000 !important;
+}
+
+body.generating-pdf .badge {
+  background-color: #f3f4f6 !important;
+  color: #111827 !important;
+  border: 1px solid #e5e7eb !important;
+  margin: 2px !important;
+}
+
+body.generating-pdf section {
+  page-break-inside: avoid;
+  margin-bottom: 20px !important;
+}
+
+/* Section with animation */
+body.generating-pdf .animate-slide-up,
+body.generating-pdf .animate-fade-in {
+  opacity: 1 !important;
+  transform: none !important;
+  animation: none !important;
+}
+
+/* Timeline styles */
+body.generating-pdf .bg-primary {
+  background-color: #111827 !important;
+}
+
+body.generating-pdf .bg-border {
+  background-color: #e5e7eb !important;
+}
+
+/* Print styles */
+@media print {
+  .print\:hidden {
+    display: none !important;
+  }
+
+  body {
+    @apply bg-white;
+  }
+
+  main {
+    padding: 1.5rem !important;
+  }
+}
+
+/* For avatar/image print quality */
+@media print {
+  img {
+    print-color-adjust: exact;
+  }
+}
+
+/* Ensure consistency on list bullets */
+ul:not(.list-none) > li {
+  position: relative;
+  padding-left: 1.25rem;
+}
+
+ul:not(.list-none) > li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0.5em;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background-color: currentColor;
+  opacity: 0.5;
+}
+
+/* For text justification */
+.text-justify {
+  text-align: justify;
+  hyphens: auto;
+}
+
+/* Optimizing for mobile printing */
+@page {
+  margin: 1cm;
+}
+
+@page {
+  size: A4;
+}
+
+/* Animation classes */
+.animate-fade-in {
+  opacity: 0;
+  animation: fade-in 0.5s ease-out forwards;
+}
+
+.animate-slide-up {
+  opacity: 0;
+  transform: translateY(10px);
+  animation: slide-up 0.5s ease-out forwards;
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes slide-up {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }

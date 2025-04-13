@@ -18,16 +18,16 @@ import {
   YearProgressLogo,
 } from "@/images/logos";
 import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
+import { ResumeData } from "@/types";
 
-export const RESUME_DATA = {
+export const RESUME_DATA: ResumeData = {
   name: "Theo Bearman",
   initials: "TB",
   location: "London, United Kingdom",
   about:
     "AI Regulation Policy Lead | Department for Science, Innovation and Technology (DSIT)",
   summary:
-    "Theo is a HSPS graduate from Jesus College, Cambridge, whose career to date has spanned consulting, financial services and the public sector. A participant in Accenture’s Horizons programme during his gap year, Theo initially worked on HSBC’s trading floors in London and Paris after completing his degree at Cambridge in 2020. Motivated by a keen interest in the socio-political implications of AI and captivated by ChatGPT taking the world by storm after its release, Theo left finance at the end of 2023 and joined the growing AI Policy Directorate at the Department for Science, Innovation and Technology in Whitehall. He currently serves as an AI Regulation Policy Lead.",
-  avatarUrl: "https://media.licdn.com/dms/image/v2/D4E03AQF9CNbceeP8ug/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1728206241480?e=1733961600&v=beta&t=5zpCw6bo8zMOCTPXv160pafYysXgJ9aV6I81QyHFM6w",
+    "Theo is a HSPS graduate from Jesus College, Cambridge, whose career to date has spanned consulting, financial services and the public sector. A participant in Accenture's Horizons programme during his gap year, Theo initially worked on HSBC's trading floors in London and Paris after completing his degree at Cambridge in 2020. Motivated by a keen interest in the socio-political implications of AI and captivated by ChatGPT taking the world by storm after its release, Theo left finance at the end of 2023 and joined the growing AI Policy Directorate at the Department for Science, Innovation and Technology in Whitehall. He currently serves as an AI Regulation Policy Lead.",
   personalWebsiteUrl: "https://resume.theobearman.com",
   contact: {
     email: "theo@theobearman.com",
@@ -100,7 +100,7 @@ export const RESUME_DATA = {
       start: "January 2025",
       end: "Present",
       description:
-        "Leading policy development for AI Regulation",
+        "Leading policy development in the AI Regulation team.",
     },
     {
       company: "Department for Science, Innovation and Technology (DSIT)",
@@ -108,7 +108,7 @@ export const RESUME_DATA = {
       start: "May 2024",
       end: "January 2025",
       description:
-        "Cross-government policy and coordination of AI-exacerbated risks and contingency planning.",
+        "Cross-government policy and coordination of AI-exacerbated risks and contingency planning as part of the Central AI Risk Function (CAIRF).",
     },
      {
       company: "Luciana Berger",
@@ -136,7 +136,7 @@ export const RESUME_DATA = {
     },
     {
       company: "Accenture",
-      title: "‘Horizons’ Analyst, London",
+      title: "'Horizons' Analyst, London",
       start: "September 2016",
       end: "April 2017",
       description:
@@ -152,7 +152,7 @@ export const RESUME_DATA = {
     },
     {
       issuer: "Jesus College, University of Cambridge",
-      award: "Benefactor’s (2004) Prize",
+      award: "Benefactor's (2004) Prize",
       awarded: "June 2019",
       what: "In recognition of outstanding academic performance in any part of the Tripos.",
     },

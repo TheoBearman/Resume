@@ -1,0 +1,45 @@
+{
+  "about": "À propos",
+  "experience": "Expérience professionnelle",
+  "education": "Formation",
+  "qualifications": "Qualifications et certifications",
+  "awards": "Prix et distinctions",
+  "skills": "Compétences et intérêts",
+  "traditional": "Traditionnel",
+  "timeline": "Chronologie",
+  "location": "Emplacement",
+  "printResume": "Imprimer le CV",
+  "downloadPDF": "Télécharger en PDF",
+  "present": "Présent",
+  "months": {
+    "one": "{count} mois",
+    "other": "{count} mois"
+  },
+  "years": {
+    "one": "{count} an",
+    "other": "{count} ans"
+  },
+  "and": "et",
+  "details": {
+    "keyAchievements": "Réalisations clés",
+    "responsibilities": "Responsabilités",
+    "technologiesSkills": "Technologies et compétences"
+  },
+  "timelineTotalDuration": "Durée totale: {duration}",
+  "company": "Entreprise",
+  "role": "Poste",
+  "date": "Date",
+  "description": "Description",
+  "degree": "Diplôme",
+  "school": "École",
+  "award": "Prix",
+  "issuer": "Émetteur",
+  "search": "Rechercher dans le CV...",
+  "colorTheme": "Thème de couleur",
+  "mode": "Mode",
+  "light": "Clair",
+  "dark": "Sombre",
+  "default": "Par défaut",
+  "blue": "Bleu",
+  "sepia": "Sépia"
+} 
