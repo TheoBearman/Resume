@@ -1,59 +1,73 @@
+"use client";
+
 import {
   Card,
   CardHeader,
   CardContent,
-  CardDescription,
-  CardTitle,
-} from "./ui/card";
-import { Badge } from "./ui/badge";
+  CardFooter,
+} from "@/components/ui/card";
+import { Badge } from "@/components/ui/badge";
+import { Button } from "@/components/ui/button";
+import { ExternalLinkIcon } from "lucide-react";
 
-interface Props {
+interface ProjectCardProps {
   title: string;
   description: string;
-  tags: readonly string[];
+  tags: string[];
   link?: string;
+  repoLink?: string;
 }
 
-export function ProjectCard({ title, description, tags, link }: Props) {
+export function ProjectCard({
+  title,
+  description,
+  tags,
+  link,
+  repoLink,
+}: ProjectCardProps) {
   return (
-    <Card className="flex flex-col overflow-hidden border border-muted p-3">
-      <CardHeader className="">
+    <Card className="flex flex-col overflow-hidden border border-border bg-card">
+      <CardHeader className="pb-2">
         <div className="space-y-1">
-          <CardTitle className="text-base">
-            {link ? (
-              <a
-                href={link}
-                target="_blank"
-                className="inline-flex items-center gap-1 hover:underline"
-              >
-                {title}{" "}
-                <span className="size-1 rounded-full bg-green-500"></span>
-              </a>
-            ) : (
-              title
-            )}
-          </CardTitle>
-          <div className="hidden font-mono text-xs underline print:visible">
-            {link?.replace("https://", "").replace("www.", "").replace("/", "")}
-          </div>
-          <CardDescription className="font-mono text-xs print:text-[10px]">
-            {description}
-          </CardDescription>
+          <h3 className="text-base font-bold leading-none">{title}</h3>
         </div>
       </CardHeader>
-      <CardContent className="mt-auto flex">
-        <div className="mt-2 flex flex-wrap gap-1">
+      <CardContent className="flex-1 text-xs text-muted-foreground">
+        <p>{description}</p>
+      </CardContent>
+      <CardFooter className="flex flex-col items-start space-y-2 pt-4">
+        <div className="flex flex-wrap gap-1">
           {tags.map((tag) => (
-            <Badge
-              className="px-1 py-0 text-[10px] print:px-1 print:py-0.5 print:text-[8px] print:leading-tight"
-              variant="secondary"
-              key={tag}
-            >
+            <Badge key={tag} variant="secondary" className="px-1 py-0 text-[10px]">
               {tag}
             </Badge>
           ))}
         </div>
-      </CardContent>
+        {link && (
+          <Button asChild size="sm" variant="outline" className="gap-1">
+            <a 
+              href={link} 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="h-7 gap-1 text-xs"
+            >
+              View Project <ExternalLinkIcon className="ml-1 h-3 w-3" />
+            </a>
+          </Button>
+        )}
+        {repoLink && (
+          <Button asChild size="sm" variant="outline" className="gap-1">
+            <a 
+              href={repoLink} 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="h-7 gap-1 text-xs"
+            >
+              View Repository <ExternalLinkIcon className="ml-1 h-3 w-3" />
+            </a>
+          </Button>
+        )}
+      </CardFooter>
     </Card>
   );
 }

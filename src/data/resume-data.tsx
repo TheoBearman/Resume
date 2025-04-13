@@ -24,9 +24,9 @@ export const RESUME_DATA = {
   initials: "TB",
   location: "London, United Kingdom",
   about:
-    "AI Risk Adviser | Central AI Risk Function (CAIRF) | Department for Science, Innovation and Technology (DSIT)",
+    "AI Regulation Policy Lead | Department for Science, Innovation and Technology (DSIT)",
   summary:
-    "Theo is a HSPS graduate from Jesus College, Cambridge, whose career to date has spanned consulting, financial services and the public sector. A participant in Accenture’s Horizons programme during his gap year, Theo initially worked on HSBC’s trading floors in London and Paris after completing his degree at Cambridge in 2020. Motivated by a keen interest in the socio-political implications of AI and captivated by ChatGPT taking the world by storm after its release, Theo left finance at the end of 2023 and joined the growing AI Policy Directorate at the Department for Science, Innovation and Technology in Whitehall. He currently serves as an AI Risk Adviser.",
+    "Theo is a HSPS graduate from Jesus College, Cambridge, whose career to date has spanned consulting, financial services and the public sector. A participant in Accenture’s Horizons programme during his gap year, Theo initially worked on HSBC’s trading floors in London and Paris after completing his degree at Cambridge in 2020. Motivated by a keen interest in the socio-political implications of AI and captivated by ChatGPT taking the world by storm after its release, Theo left finance at the end of 2023 and joined the growing AI Policy Directorate at the Department for Science, Innovation and Technology in Whitehall. He currently serves as an AI Regulation Policy Lead.",
   avatarUrl: "https://media.licdn.com/dms/image/v2/D4E03AQF9CNbceeP8ug/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1728206241480?e=1733961600&v=beta&t=5zpCw6bo8zMOCTPXv160pafYysXgJ9aV6I81QyHFM6w",
   personalWebsiteUrl: "https://resume.theobearman.com",
   contact: {
@@ -94,11 +94,19 @@ export const RESUME_DATA = {
     },
   ],
   work: [
+     {
+      company: "Department for Science, Innovation and Technology (DSIT)",
+      title: "AI Regulation Policy Lead",
+      start: "January 2025",
+      end: "Present",
+      description:
+        "Leading policy development for AI Regulation",
+    },
     {
       company: "Department for Science, Innovation and Technology (DSIT)",
       title: "AI Risk Adviser",
       start: "May 2024",
-      end: "Present",
+      end: "January 2025",
       description:
         "Cross-government policy and coordination of AI-exacerbated risks and contingency planning.",
     },
