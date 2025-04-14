@@ -13,57 +13,38 @@ import { PdfExportButton } from "@/components/pdf-export-button";
 import { InteractiveTimeline } from "@/components/interactive-timeline";
 import { useState } from "react";
 import { TimelineViewMode } from "@/types";
+import { parse, isValid, differenceInMonths } from "date-fns";
 
-// Function to calculate duration between two dates
+// Function to calculate duration between two dates using date-fns
 function getDuration(startDate: string, endDate: string): string {
-  // Function to convert month name to month number (0-11)
-  const getMonthNumber = (monthName: string): number => {
-    const months: Record<string, number> = {
-      "january": 0, "february": 1, "march": 2, "april": 3, "may": 4, "june": 5,
-      "july": 6, "august": 7, "september": 8, "october": 9, "november": 10, "december": 11
-    };
-    return months[monthName.toLowerCase()] || 0;
-  };
-
-  // Function to parse date strings like "January 2020" or "Jan 2020"
-  const parseDate = (dateStr: string): Date => {
+  // Helper to parse date strings like "January 2020", "Jan 2020", or just "2020"
+  const parseResumeDate = (dateStr: string): Date => {
     if (dateStr === "Present") {
-      return new Date(); // Use current date for "Present"
-    }
-
-    // Handle different date formats
-    const parts = dateStr.split(" ");
-    if (parts.length < 2) {
-      console.error(`Invalid date format: ${dateStr}`);
       return new Date();
     }
-
-    const monthStr = parts[0];
-    // Extract the year, which should be the last part
-    const yearStr = parts[parts.length - 1];
-    const year = parseInt(yearStr, 10);
-    
-    if (isNaN(year)) {
-      console.error(`Invalid year in date: ${dateStr}`);
+    // Try parsing with full month name
+    let parsed = parse(dateStr, "MMMM yyyy", new Date());
+    if (!isValid(parsed)) {
+      // Try abbreviated month
+      parsed = parse(dateStr, "MMM yyyy", new Date());
+    }
+    if (!isValid(parsed)) {
+      // Try just year
+      parsed = parse(dateStr, "yyyy", new Date());
+    }
+    if (!isValid(parsed)) {
+      // Fallback to current date
       return new Date();
     }
-
-    const month = getMonthNumber(monthStr);
-    return new Date(year, month, 1); // Use first day of month
+    return parsed;
   };
 
-  // Parse the dates
-  const start = parseDate(startDate);
-  const end = parseDate(endDate);
-  
-  // Calculate difference in months
-  const diffYears = end.getFullYear() - start.getFullYear();
-  const diffMonths = end.getMonth() - start.getMonth() + (diffYears * 12);
-  
-  // Ensure we return at least 1 month for any job
-  const months = Math.max(1, diffMonths);
-  
-  // Format the output
+  const start = parseResumeDate(startDate);
+  const end = parseResumeDate(endDate);
+  let months = differenceInMonths(end, start);
+  // Ensure at least 1 month
+  months = Math.max(1, months);
+
   if (months >= 12) {
     const years = Math.floor(months / 12);
     const remainingMonths = months % 12;
@@ -382,3 +363,4 @@ export default function Page() {
     </main>
   );
 }
+
