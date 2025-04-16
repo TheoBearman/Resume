@@ -74,12 +74,4 @@ module.exports = {
     },
   },
   plugins: [require("tailwindcss-animate")],
-  safelist: [
-    'animate-fade-in',
-    'animate-slide-up',
-    'animate-pop',
-    'animate-slide-down-fade-in',
-    'animate-dot-pulse',
-    'stagger-animation',
-  ],
 }
