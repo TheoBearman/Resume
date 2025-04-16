@@ -64,7 +64,10 @@ export function InteractiveTimeline({ items, getDuration }: InteractiveTimelineP
             
             <div className="relative">
               {/* Timeline dot */}
-              <div className="absolute left-4 top-6 h-3 w-3 rounded-full bg-primary transform -translate-x-[6px]" />
+              <div className={cn(
+                "absolute left-4 top-6 h-3 w-3 rounded-full bg-primary transform -translate-x-[6px] transition-all",
+                isExpanded ? "animate-dot-pulse" : ""
+              )} />
               
               {/* Content */}
               <div 
@@ -99,7 +102,10 @@ export function InteractiveTimeline({ items, getDuration }: InteractiveTimelineP
                     
                     {hasDetails && (
                       <button
-                        className="p-1 hover:bg-accent/30 rounded-full text-muted-foreground"
+                        className={cn(
+                          "p-1 hover:bg-accent/30 rounded-full text-muted-foreground transition-all",
+                          isExpanded ? "animate-pop" : ""
+                        )}
                         aria-label={isExpanded ? "Collapse details" : "Expand details"}
                         onClick={(e) => {
                           e.stopPropagation();
@@ -122,16 +128,18 @@ export function InteractiveTimeline({ items, getDuration }: InteractiveTimelineP
                 {hasDetails && (
                   <div 
                     className={cn(
-                      "mt-3 overflow-hidden transition-all duration-300 ease-in-out space-y-2",
-                      isExpanded ? "max-h-[500px] opacity-100" : "max-h-0 opacity-0"
+                      "mt-3 overflow-hidden space-y-2 transition-all duration-500 ease-in-out",
+                      isExpanded
+                        ? "animate-slide-down-fade-in max-h-[500px] opacity-100"
+                        : "max-h-0 opacity-0"
                     )}
                   >
                     {item.highlights && item.highlights.length > 0 && (
                       <div>
                         <h4 className="text-xs font-semibold mb-1">Key Achievements</h4>
-                        <ul className="list-disc list-inside text-xs space-y-1">
+                        <ul className="list-disc list-inside text-xs space-y-1 stagger-animation">
                           {item.highlights.map((highlight, idx) => (
-                            <li key={idx}>{highlight}</li>
+                            <li key={idx} className={isExpanded ? "animate-fade-in" : "opacity-0"} style={{ animationDelay: isExpanded ? `${0.1 * idx + 0.1}s` : undefined }}>{highlight}</li>
                           ))}
                         </ul>
                       </div>
@@ -140,9 +148,9 @@ export function InteractiveTimeline({ items, getDuration }: InteractiveTimelineP
                     {item.details && item.details.length > 0 && (
                       <div>
                         <h4 className="text-xs font-semibold mb-1">Responsibilities</h4>
-                        <ul className="list-disc list-inside text-xs space-y-1">
+                        <ul className="list-disc list-inside text-xs space-y-1 stagger-animation">
                           {item.details.map((detail, idx) => (
-                            <li key={idx}>{detail}</li>
+                            <li key={idx} className={isExpanded ? "animate-fade-in" : "opacity-0"} style={{ animationDelay: isExpanded ? `${0.1 * idx + 0.1}s` : undefined }}>{detail}</li>
                           ))}
                         </ul>
                       </div>
@@ -151,9 +159,9 @@ export function InteractiveTimeline({ items, getDuration }: InteractiveTimelineP
                     {item.technologies && item.technologies.length > 0 && (
                       <div>
                         <h4 className="text-xs font-semibold mb-1">Technologies & Skills</h4>
-                        <div className="flex flex-wrap gap-1">
+                        <div className="flex flex-wrap gap-1 stagger-animation">
                           {item.technologies.map((tech, idx) => (
-                            <Badge variant="secondary" key={idx} className="text-xs">{tech}</Badge>
+                            <Badge variant="secondary" key={idx} className={isExpanded ? "animate-fade-in text-xs" : "opacity-0 text-xs"} style={{ animationDelay: isExpanded ? `${0.1 * idx + 0.1}s` : undefined }}>{tech}</Badge>
                           ))}
                         </div>
                       </div>
