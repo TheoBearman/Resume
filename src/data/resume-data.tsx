@@ -182,6 +182,7 @@ export const RESUME_DATA: ResumeData = {
     },
   ],
   skills: [
+    "Bridge",
     "Responsible AI",
     "Equity Investing",
     "Aviation",
