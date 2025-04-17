@@ -124,7 +124,7 @@ export function PdfExportButton() {
       
       toast({
         title: "Print Dialog Opened",
-        description: "Please save as PDF when the print dialog appears.",
+        description: "For best results, use the print dialog to save as PDF. This preserves all website styling.",
         duration: 5000,
       });
     } catch (error) {
@@ -146,10 +146,11 @@ export function PdfExportButton() {
       onClick={generatePDF}
       disabled={isGenerating}
       className={cn("print:hidden size-8", isGenerating && "opacity-50 cursor-wait")}
-      title="Download as PDF"
+      title="Download as PDF (opens print dialog for best results)"
+      aria-label="Download as PDF (opens print dialog for best results)"
     >
       <FileDownIcon className="h-4 w-4" />
-      <span className="sr-only">Download PDF</span>
+      <span className="sr-only">Download PDF (opens print dialog for best results)</span>
     </Button>
   );
 } 
