@@ -198,7 +198,7 @@ export default function Page() {
                           ></div>
                         )}
                         <div className="flex flex-col sm:flex-row items-start sm:items-baseline justify-between gap-x-2 mb-1.5">
-                          <h4 className="font-mono text-sm font-semibold leading-tight">
+                          <h4 className="font-mono text-sm leading-tight">
                             {job.title}
                           </h4>
                           <div className="text-xs tabular-nums text-muted-foreground mt-1.5 sm:mt-0 whitespace-nowrap">
