@@ -4,7 +4,7 @@ import { Card, CardHeader, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { CommandMenu } from "@/components/command-menu";
 import { Section } from "@/components/ui/section";
-import { GlobeIcon, MailIcon, PhoneIcon } from "lucide-react";
+import { GlobeIcon, MailIcon, PhoneIcon, LayoutList, Clock } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { RESUME_DATA } from "@/data/resume-data";
 import { ThemeToggle } from "@/components/theme-toggle";
@@ -58,6 +58,7 @@ function getDuration(startDate: string, endDate: string): string {
 }
 
 export default function Page() {
+  const [timelineView, setTimelineView] = useState<'traditional' | 'timeline'>('traditional');
   return (
     <main className="container relative mx-auto scroll-my-12 overflow-auto p-4 print:p-12 md:p-16 bg-background text-foreground animate-fade-in">
       <section className="mx-auto w-full max-w-2xl space-y-8 bg-background print:space-y-4">
@@ -122,99 +123,127 @@ export default function Page() {
           </p>
         </Section>
         <Section className="animate-slide-up" style={{ animationDelay: '0.2s' }}>
-          <h2 className="text-xl font-bold mb-4">Work Experience</h2>
-          {Object.entries(
-            RESUME_DATA.work.reduce<Record<string, typeof RESUME_DATA.work[number][]>>((acc, job) => {
-              const companyName = job.company;
-              if (!acc[companyName]) {
-                acc[companyName] = [];
+          <div className="flex items-center justify-between mb-4">
+            <h2 className="text-xl font-bold">Work Experience</h2>
+            <div className="flex items-center gap-1 border rounded-md p-1">
+              <Button
+                variant={timelineView === 'traditional' ? 'default' : 'ghost'}
+                size="sm"
+                className="h-8 text-xs gap-1.5 px-2"
+                onClick={() => setTimelineView('traditional')}
+                title="Traditional View"
+              >
+                <LayoutList className="h-3.5 w-3.5" />
+                <span className="hidden sm:inline">Traditional</span>
+              </Button>
+              <Button
+                variant={timelineView === 'timeline' ? 'default' : 'ghost'}
+                size="sm"
+                className="h-8 text-xs gap-1.5 px-2"
+                onClick={() => setTimelineView('timeline')}
+                title="Timeline View"
+              >
+                <Clock className="h-3.5 w-3.5" />
+                <span className="hidden sm:inline">Timeline</span>
+              </Button>
+            </div>
+          </div>
+          {timelineView === 'traditional' ? (
+            Object.entries(
+              RESUME_DATA.work.reduce<Record<string, typeof RESUME_DATA.work[number][]>>((acc, job) => {
+                const companyName = job.company;
+                if (!acc[companyName]) {
+                  acc[companyName] = [];
+                }
+                acc[companyName].push(job);
+                return acc;
+              }, {})
+            ).map(([company, jobs]) => {
+              // Sort jobs in reverse chronological order (newest first)
+              const sortedJobs = [...jobs].sort((a, b) => {
+                if (a.end === "Present") return -1;
+                if (b.end === "Present") return 1;
+                return new Date(b.start).getTime() - new Date(a.start).getTime();
+              });
+              if (sortedJobs.length === 1) {
+                const job = sortedJobs[0];
+                return (
+                  <Card key={company} className="border-border bg-card mb-4 animate-fade-in" style={{ animationDelay: '0.1s' }}>
+                    <CardHeader>
+                      <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-x-2 text-base text-justify">
+                        <h3 className="inline-flex items-center justify-center gap-x-1 font-semibold leading-none text-justify">
+                          <a>{company}</a>
+                        </h3>
+                        <div className="text-sm tabular-nums text-muted-foreground mt-1 sm:mt-0">
+                          {job.start} - {job.end} · {getDuration(job.start, job.end)}
+                        </div>
+                      </div>
+                      <h4 className="font-mono text-sm leading-none print:text-[12px] text-muted-foreground">
+                        {job.title}
+                      </h4>
+                    </CardHeader>
+                    <CardContent className="mt-2 text-xs text-justify print:text-[10px]">
+                      {job.description}
+                    </CardContent>
+                  </Card>
+                );
               }
-              acc[companyName].push(job);
-              return acc;
-            }, {})
-          ).map(([company, jobs]) => {
-            // Sort jobs in reverse chronological order (newest first)
-            const sortedJobs = [...jobs].sort((a, b) => {
-              if (a.end === "Present") return -1;
-              if (b.end === "Present") return 1;
-              return new Date(b.start).getTime() - new Date(a.start).getTime();
-            });
-            if (sortedJobs.length === 1) {
-              const job = sortedJobs[0];
+              // Multiple jobs at the same company
               return (
                 <Card key={company} className="border-border bg-card mb-4 animate-fade-in" style={{ animationDelay: '0.1s' }}>
-                  <CardHeader>
-                    <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-x-2 text-base text-justify">
-                      <h3 className="inline-flex items-center justify-center gap-x-1 font-semibold leading-none text-justify">
+                  <CardHeader className="pb-2">
+                    <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-x-2 text-base">
+                      <h3 className="inline-flex items-center justify-center gap-x-1 font-semibold leading-none">
                         <a>{company}</a>
                       </h3>
                       <div className="text-sm tabular-nums text-muted-foreground mt-1 sm:mt-0">
-                        {job.start} - {job.end} · {getDuration(job.start, job.end)}
+                        {sortedJobs[sortedJobs.length - 1].start} - {sortedJobs[0].end} · {getDuration(sortedJobs[sortedJobs.length - 1].start, sortedJobs[0].end)}
                       </div>
                     </div>
-                    <h4 className="font-mono text-sm leading-none print:text-[12px] text-muted-foreground">
-                      {job.title}
-                    </h4>
                   </CardHeader>
-                  <CardContent className="mt-2 text-xs text-justify print:text-[10px]">
-                    {job.description}
+                  <CardContent className="pt-2 pb-0">
+                    <div className="space-y-6">
+                      {sortedJobs.map((job, index) => (
+                        <div
+                          key={index}
+                          className="relative pl-7 pb-4 sm:pb-6 animate-fade-in animate-slide-up"
+                          style={{ animationDelay: `${index * 0.08 + 0.1}s` }}
+                        >
+                          {/* Timeline dot */}
+                          <div className="absolute left-0 top-1.5 h-2.5 w-2.5 rounded-full bg-primary z-10"></div>
+                          {/* Timeline line with fade-out after last dot */}
+                          {index < sortedJobs.length - 1 ? (
+                            <div className="absolute left-[5px] top-4 bottom-0 w-[1px] bg-border z-0"></div>
+                          ) : (
+                            <div
+                              className="absolute left-[5px] top-4 h-8 w-[1px] z-0"
+                              style={{
+                                background: 'linear-gradient(to bottom, var(--border-color, #e5e7eb) 0%, transparent 100%)',
+                                // fallback for border color
+                              }}
+                            ></div>
+                          )}
+                          <div className="flex flex-col sm:flex-row items-start sm:items-baseline justify-between gap-x-2 mb-1.5">
+                            <h4 className="font-mono text-sm font-semibold leading-tight">
+                              {job.title}
+                            </h4>
+                            <div className="text-xs tabular-nums text-muted-foreground mt-1.5 sm:mt-0 whitespace-nowrap">
+                              {job.start} - {job.end} · {getDuration(job.start, job.end)}
+                            </div>
+                          </div>
+                          <p className="mt-1 text-xs text-muted-foreground text-justify print:text-[10px]">
+                            {job.description}
+                          </p>
+                        </div>
+                      ))}
+                    </div>
                   </CardContent>
                 </Card>
               );
-            }
-            // Multiple jobs at the same company
-            return (
-              <Card key={company} className="border-border bg-card mb-4 animate-fade-in" style={{ animationDelay: '0.1s' }}>
-                <CardHeader className="pb-2">
-                  <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-x-2 text-base">
-                    <h3 className="inline-flex items-center justify-center gap-x-1 font-semibold leading-none">
-                      <a>{company}</a>
-                    </h3>
-                    <div className="text-sm tabular-nums text-muted-foreground mt-1 sm:mt-0">
-                      {sortedJobs[sortedJobs.length - 1].start} - {sortedJobs[0].end} · {getDuration(sortedJobs[sortedJobs.length - 1].start, sortedJobs[0].end)}
-                    </div>
-                  </div>
-                </CardHeader>
-                <CardContent className="pt-2 pb-0">
-                  <div className="space-y-6">
-                    {sortedJobs.map((job, index) => (
-                      <div
-                        key={index}
-                        className="relative pl-7 pb-4 sm:pb-6 animate-fade-in animate-slide-up"
-                        style={{ animationDelay: `${index * 0.08 + 0.1}s` }}
-                      >
-                        {/* Timeline dot */}
-                        <div className="absolute left-0 top-1.5 h-2.5 w-2.5 rounded-full bg-primary z-10"></div>
-                        {/* Timeline line with fade-out after last dot */}
-                        {index < sortedJobs.length - 1 ? (
-                          <div className="absolute left-[5px] top-4 bottom-0 w-[1px] bg-border z-0"></div>
-                        ) : (
-                          <div
-                            className="absolute left-[5px] top-4 h-8 w-[1px] z-0"
-                            style={{
-                              background: 'linear-gradient(to bottom, var(--border-color, #e5e7eb) 0%, transparent 100%)',
-                              // fallback for border color
-                            }}
-                          ></div>
-                        )}
-                        <div className="flex flex-col sm:flex-row items-start sm:items-baseline justify-between gap-x-2 mb-1.5">
-                          <h4 className="font-mono text-sm font-semibold leading-tight">
-                            {job.title}
-                          </h4>
-                          <div className="text-xs tabular-nums text-muted-foreground mt-1.5 sm:mt-0 whitespace-nowrap">
-                            {job.start} - {job.end} · {getDuration(job.start, job.end)}
-                          </div>
-                        </div>
-                        <p className="mt-1 text-xs text-muted-foreground text-justify print:text-[10px]">
-                          {job.description}
-                        </p>
-                      </div>
-                    ))}
-                  </div>
-                </CardContent>
-              </Card>
-            );
-          })}
+            })
+          ) : (
+            <InteractiveTimeline items={RESUME_DATA.work} getDuration={getDuration} />
+          )}
         </Section>
         <Section className="animate-slide-up" style={{ animationDelay: '0.3s' }}>
           <h2 className="text-xl font-bold">Education</h2>
