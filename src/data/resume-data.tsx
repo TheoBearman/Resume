@@ -111,12 +111,12 @@ export const RESUME_DATA: ResumeData = {
         "Cross-government policy and coordination of AI-exacerbated risks and contingency planning as part of the Central AI Risk Function (CAIRF).",
     },
      {
-      company: "Luciana Berger",
+      company: "Baroness Berger of Barnhill",
       title: "Mental Health Policy Researcher, London",
       start: "January 2024",
       end: "April 2024",
       description:
-        "Luciana Berger (former Labour Party MP for Liverpool Wavertree and Shadow Minister for Mental Health) has recently been asked by The Labour Party to conduct a review which will deliver recommendations on a cross-government strategy for the long-term prevention of mental ill-health. I supported Luciana as her researcher for this review.",
+        "Baroness Berger of Barnhill (former Labour Party MP for Liverpool Wavertree and Shadow Minister for Mental Health) was asked by The Labour Party to conduct a review which delivered recommendations on a cross-government strategy for the long-term prevention of mental ill-health. I supported Baroness Berger as her researcher for this review.",
     },
     {
       company: "HSBC",
