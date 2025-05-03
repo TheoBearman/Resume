@@ -27,7 +27,7 @@ export const RESUME_DATA: ResumeData = {
   about:
     "AI Regulation Policy Lead | Department for Science, Innovation and Technology (DSIT)",
   summary:
-    "Theo is a HSPS graduate from Jesus College, Cambridge, whose career to date has spanned consulting, financial services and the public sector. A participant in Accenture's Horizons programme during his gap year, Theo initially worked on HSBC's trading floors in London and Paris after completing his degree at Cambridge in 2020. Motivated by a keen interest in the socio-political implications of AI and captivated by ChatGPT taking the world by storm after its release, Theo left finance at the end of 2023 and joined the growing AI Policy Directorate at the Department for Science, Innovation and Technology in Whitehall. He currently serves as an AI Regulation Policy Lead.",
+    "Theo is a HSPS graduate from Jesus College, Cambridge, whose career to date has spanned consulting, financial services and the public sector. A participant in Accenture's Horizons programme during his gap year, Theo initially worked on HSBC's trading floors in London and Paris after completing his degree at Cambridge in 2020. Motivated by a keen interest in the socio-political implications of AI and captivated by ChatGPT taking the world by storm after its release, Theo left finance at the end of 2023 and joined the growing AI Policy team at the Department for Science, Innovation and Technology in Whitehall. He currently serves as an AI Regulation Policy Lead.",
   personalWebsiteUrl: "https://resume.theobearman.com",
   contact: {
     email: "theo@theobearman.com",
@@ -68,6 +68,12 @@ export const RESUME_DATA: ResumeData = {
     },
   ],
   qualifications: [
+    {
+      issuer: "Imperial College London",
+      issuerlink: "https://1drv.ms/i/s!ArPsDGXjGTZoiMocz0w19pIY2bX7FQ?e=nfADdk",
+      qualification: "AI Fundamentals",
+      awarded: "December 2024",
+    },
     {
       issuer: "LSE Online",
       issuerlink: "https://lse.credential.getsmarter.com/14e37e04-ac93-4dd8-bd1d-25f8bab44eb7",
