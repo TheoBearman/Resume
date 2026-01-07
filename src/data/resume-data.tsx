@@ -186,6 +186,15 @@ export const RESUME_DATA: ResumeData = {
       what: "",
     },
   ],
+  publications: [
+    // {
+    //   title: "Example Publication",
+    //   publisher: "Example Publisher",
+    //   date: "2024",
+    //   link: "https://example.com",
+    //   description: "Description of the publication",
+    // },
+  ],
   skills: [
     "Bridge",
     "Poker",

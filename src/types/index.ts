@@ -57,6 +57,15 @@ export type Award = {
   what: string;
 };
 
+// Publications
+export type Publication = {
+  title: string;
+  publisher: string;
+  date: string;
+  link: string;
+  description?: string;
+};
+
 // Project
 export type Project = {
   title: string;
@@ -92,6 +101,7 @@ export type ResumeData = {
   qualifications: ReadonlyArray<Qualification>;
   work: ReadonlyArray<WorkExperience>;
   awards: ReadonlyArray<Award>;
+  publications?: ReadonlyArray<Publication>;
   projects?: ReadonlyArray<Project>;
   skills: ReadonlyArray<Skill>;
 }; 

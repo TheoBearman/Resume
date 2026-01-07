@@ -8,6 +8,7 @@ import { WorkExperience } from "@/components/resume/work-experience";
 import { Education } from "@/components/resume/education";
 import { Qualifications } from "@/components/resume/qualifications";
 import { Awards } from "@/components/resume/awards";
+import { Publications } from "@/components/resume/publications";
 import { Skills } from "@/components/resume/skills";
 import { Section } from "@/components/ui/section"; // Keep for spacing/layout if needed or for the empty slots
 
@@ -27,6 +28,8 @@ export default function Page() {
         <Qualifications />
 
         <Awards />
+
+        {/* <Publications /> */}
 
         <Skills />
 
