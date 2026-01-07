@@ -25,11 +25,11 @@ export default function Page() {
 
         <Education />
 
+        {/* <Publications /> */}
+
         <Qualifications />
 
         <Awards />
-
-        {/* <Publications /> */}
 
         <Skills />
 
