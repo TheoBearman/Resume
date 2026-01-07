@@ -12,7 +12,7 @@ export type SocialLink = {
 
 // Contact information
 export type ContactInfo = {
-  email: string;
+  email?: string;
   phone?: string;
   social: ReadonlyArray<SocialLink>;
 };

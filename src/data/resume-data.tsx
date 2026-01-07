@@ -25,16 +25,15 @@ export const RESUME_DATA: ResumeData = {
   initials: "TB",
   location: "London, United Kingdom",
   about:
-    "AI Regulation Policy Lead | Department for Science, Innovation and Technology (DSIT)",
+    "AI Security | Former UK Government AI Policy Lead",
   summary:
-    "Theo is a HSPS graduate from Jesus College, Cambridge, whose career to date has spanned consulting, financial services and the public sector. A participant in Accenture's Horizons programme during his gap year, Theo initially worked on HSBC's trading floors in London and Paris after completing his degree at Cambridge in 2020. Motivated by a keen interest in the socio-political implications of AI and captivated by ChatGPT taking the world by storm after its release, Theo left finance at the end of 2023 and joined the growing AI Policy team at the Department for Science, Innovation and Technology in Whitehall. He currently serves as an AI Regulation Policy Lead.",
-  personalWebsiteUrl: "https://resume.theobearman.com",
+    "Theo is a HSPS graduate from Jesus College, Cambridge, whose career to date has spanned consulting, financial services and the public sector. A participant in Accenture's Horizons programme during his gap year, Theo initially worked on HSBC's trading floors in London and Paris after completing his degree at Cambridge in 2020. Motivated by a keen interest in the socio-political implications of AI and captivated by ChatGPT taking the world by storm after its release, Theo left finance at the end of 2023 and joined the growing AI Policy team at the Department for Science, Innovation and Technology in Whitehall. He most recently served as an AI Regulation Policy Lead..",
+  personalWebsiteUrl: "https://theobearman.github.io/Resume/",
   contact: {
-    email: "theo@theobearman.com",
     social: [
       {
         name: "LinkedIn",
-        url: "https://www.linkedin.com/in/theobearman/",
+        url: "https://www.linkedin.com/in/theob12/",
         icon: LinkedInIcon,
       },
       {
@@ -100,13 +99,13 @@ export const RESUME_DATA: ResumeData = {
     },
   ],
   work: [
-     {
+    {
       company: "Department for Science, Innovation and Technology (DSIT)",
       title: "AI Regulation Policy Lead",
       start: "January 2025",
-      end: "Present",
+      end: "December 2025",
       description:
-        "Leading policy development in the AI Regulation team.",
+        "Led the development of major policy interventions across topics including AI security, planning reform for AI infrastructure and the AI Growth Lab to support the UK’s AI sector and manage AI-related risks.",
     },
     {
       company: "Department for Science, Innovation and Technology (DSIT)",
@@ -116,7 +115,7 @@ export const RESUME_DATA: ResumeData = {
       description:
         "Cross-government policy and coordination of AI-exacerbated risks and contingency planning as part of the Central AI Risk Function (CAIRF).",
     },
-     {
+    {
       company: "Baroness Berger of Barnhill",
       title: "Mental Health Policy Researcher, London",
       start: "January 2024",
