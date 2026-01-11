@@ -199,7 +199,7 @@ export const RESUME_DATA: ResumeData = {
   skills: [
     "Bridge",
     "Poker",
-    "Responsible AI",
+    "AI Security",
     "Equity Investing",
     "Aviation",
     "Cooking",
