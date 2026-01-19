@@ -25,16 +25,16 @@ export const RESUME_DATA: ResumeData = {
   initials: "TB",
   location: "London, United Kingdom",
   about:
-    "AI Security | Former UK Government AI Policy Lead",
+    "Frontier Security Researcher @ Institute for AI Policy and Strategy | Former UK Government AI Policy Lead",
   summary:
-    "Theo is a HSPS graduate from Jesus College, Cambridge, whose career to date has spanned consulting, financial services and the public sector. A participant in Accenture's Horizons programme during his gap year, Theo initially worked on HSBC's trading floors in London and Paris after completing his degree at Cambridge in 2020. Motivated by a keen interest in the socio-political implications of AI and captivated by ChatGPT taking the world by storm after its release, Theo left finance at the end of 2023 and joined the growing AI Policy team at the Department for Science, Innovation and Technology in Whitehall. He most recently served as an AI Regulation Policy Lead.",
-  personalWebsiteUrl: "https://theobearman.github.io/Resume/",
+    "Theo is a researcher in the Frontier Security team at the Institute for AI Policy and Strategy (IAPS). A participant in Accenture’s Horizons programme during his gap year, Theo initially worked on HSBC’s trading floors in London and Paris after completing his degree at Cambridge in 2020. Motivated by a keen interest in the socio-political implications of AI and captivated by ChatGPT taking the world by storm after its release, Theo left finance at the end of 2023 and joined the growing AI Policy team at the Department for Science, Innovation and Technology in Whitehall where he served as a Policy Lead. Theo holds a Double First Class degree in Human, Social and Political Sciences from Jesus College, Cambridge. When he’s not working or thinking about AI, he is most likely to be found at his local bridge club.",
+  personalWebsiteUrl: "https://cv.theo-bearman.com/",
   contact: {
     email: "theo@theo-bearman.com",
     social: [
       {
         name: "LinkedIn",
-        url: "https://www.linkedin.com/in/theob12/",
+        url: "https://www.linkedin.com/in/theobearman/",
         icon: LinkedInIcon,
       },
       {
@@ -100,6 +100,14 @@ export const RESUME_DATA: ResumeData = {
     },
   ],
   work: [
+    {
+      company: "Institute for AI Policy and Strategy (IAPS)",
+      title: "Frontier Security Researcher",
+      start: "January 2026",
+      end: "Present",
+      description:
+        "",
+    },
     {
       company: "Department for Science, Innovation and Technology (DSIT)",
       title: "AI Regulation Policy Lead",
