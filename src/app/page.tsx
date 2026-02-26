@@ -25,7 +25,7 @@ export default function Page() {
 
         <Education />
 
-        {/* <Publications /> */}
+        <Publications />
 
         <Qualifications />
 
