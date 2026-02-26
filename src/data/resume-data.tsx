@@ -196,13 +196,12 @@ export const RESUME_DATA: ResumeData = {
     },
   ],
   publications: [
-    // {
-    //   title: "Example Publication",
-    //   publisher: "Example Publisher",
-    //   date: "2024",
-    //   link: "https://example.com",
-    //   description: "Description of the publication",
-    // },
+    {
+      title: "Kimi Claw: Risks from Chinese-Hosted 'Always On' AI Agents",
+      publisher: "Institute for AI Policy and Strategy (IAPS)",
+      date: "February 2026",
+      link: "https://www.iaps.ai/research/kimi-claw-risks",
+    },
   ],
   skills: [
     "Bridge",
