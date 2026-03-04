@@ -9,7 +9,7 @@ export function Publications() {
 
     return (
         <Section className="animate-slide-up" style={{ animationDelay: '0.8s' }}>
-            <h2 className="text-xl font-bold">Publications & Writing</h2>
+            <h2 className="text-xl font-bold">Research</h2>
             {RESUME_DATA.publications.map((publication, index) => {
                 return (
                     <Card key={publication.title} className="border-border bg-card animate-fade-in" style={{ animationDelay: `${index * 0.1}s` }}>
