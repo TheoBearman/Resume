@@ -223,6 +223,5 @@ export const RESUME_DATA: ResumeData = {
     "Coding",
     "Bloomberg Terminal",
     "Microsoft Office Suite",
-    "Azure ML Studio",
   ],
 } as const;
