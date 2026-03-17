@@ -203,6 +203,13 @@ export const RESUME_DATA: ResumeData = {
       link: "https://www.iaps.ai/research/kimi-claw-risks",
       description: "Beijing-based, Alibaba-backed AI company Moonshot now offers Kimi Claw - an 'always-on' AI agent embedded in its consumer platform that can access users' files, apps, and communications continuously. Where TikTok collects data from a single app, these agents represent a qualitatively deeper level of data exposure. This memo examines the privacy, cybersecurity, and national security risks, and recommends four low-cost steps the federal government can take now.",
     },
+    {
+      title: "China Is Reverse-Engineering America's Best AI Models",
+      publisher: "The Power Law (Substack)",
+      date: "March 2026",
+      link: "https://open.substack.com/pub/peterwildeford/p/china-is-reverse-engineering-americas",
+      description: "How AI distillation attacks risk extracting US frontier AI at scale.",
+    },
   ],
   skills: [
     "Bridge",
