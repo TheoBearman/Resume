@@ -197,18 +197,18 @@ export const RESUME_DATA: ResumeData = {
   ],
   publications: [
     {
-      title: "Kimi Claw: Risks from Chinese-Hosted 'Always On' AI Agents",
-      publisher: "Institute for AI Policy and Strategy (IAPS)",
-      date: "February 2026",
-      link: "https://www.iaps.ai/research/kimi-claw-risks",
-      description: "Beijing-based, Alibaba-backed AI company Moonshot now offers Kimi Claw - an 'always-on' AI agent embedded in its consumer platform that can access users' files, apps, and communications continuously. Where TikTok collects data from a single app, these agents represent a qualitatively deeper level of data exposure. This memo examines the privacy, cybersecurity, and national security risks, and recommends four low-cost steps the federal government can take now.",
-    },
-    {
       title: "China Is Reverse-Engineering America's Best AI Models",
       publisher: "The Power Law (Substack)",
       date: "March 2026",
       link: "https://open.substack.com/pub/peterwildeford/p/china-is-reverse-engineering-americas",
       description: "Chinese AI companies are running coordinated campaigns to extract capabilities from American frontier models through distillation attacks at industrial scale - using thousands of fraudulent accounts and proxy services to steal chain-of-thought reasoning and training data. With PLA procurement documents already seeking these models for military applications, this piece examines the strategic implications and recommends Entity List designations, sanctions, and stronger technical defences from industry to respond to this challenge.",
+    },
+    {
+      title: "Kimi Claw: Risks from Chinese-Hosted 'Always On' AI Agents",
+      publisher: "Institute for AI Policy and Strategy (IAPS)",
+      date: "February 2026",
+      link: "https://www.iaps.ai/research/kimi-claw-risks",
+      description: "Beijing-based, Alibaba-backed AI company Moonshot now offers Kimi Claw - an 'always-on' AI agent embedded in its consumer platform that can access users' files, apps, and communications continuously. Where TikTok collects data from a single app, these agents represent a qualitatively deeper level of data exposure. This memo examines the privacy, cybersecurity, and national security risks, and recommends four low-cost steps the federal government can take now.",
     },
   ],
   skills: [
