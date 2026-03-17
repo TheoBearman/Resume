@@ -33,6 +33,11 @@ export const RESUME_DATA: ResumeData = {
     email: "theo@theo-bearman.com",
     social: [
       {
+        name: "X",
+        url: "https://x.com/theobearman",
+        icon: XIcon,
+      },
+      {
         name: "LinkedIn",
         url: "https://www.linkedin.com/in/theobearman/",
         icon: LinkedInIcon,
@@ -41,11 +46,6 @@ export const RESUME_DATA: ResumeData = {
         name: "GitHub",
         url: "https://github.com/TheoBearman",
         icon: GitHubIcon,
-      },
-      {
-        name: "X",
-        url: "https://x.com/theobearman",
-        icon: XIcon,
       },
     ],
   },
