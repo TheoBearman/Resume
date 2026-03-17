@@ -208,7 +208,7 @@ export const RESUME_DATA: ResumeData = {
       publisher: "The Power Law (Substack)",
       date: "March 2026",
       link: "https://open.substack.com/pub/peterwildeford/p/china-is-reverse-engineering-americas",
-      description: "Chinese AI companies are running coordinated campaigns to extract capabilities from American frontier models through distillation attacks at industrial scale - using thousands of fraudulent accounts and proxy services to steal chain-of-thought reasoning and training data. With PLA procurement documents already seeking these models for military applications, this piece examines the strategic implications and recommends entity list designations, sanctions, and stronger know-your-customer requirements.",
+      description: "Chinese AI companies are running coordinated campaigns to extract capabilities from American frontier models through distillation attacks at industrial scale - using thousands of fraudulent accounts and proxy services to steal chain-of-thought reasoning and training data. With PLA procurement documents already seeking these models for military applications, this piece examines the strategic implications and recommends Entity List designations, sanctions, and stronger technical defences from industry to respond to this challenge.",
     },
   ],
   skills: [
