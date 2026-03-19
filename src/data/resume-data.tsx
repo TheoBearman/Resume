@@ -200,7 +200,7 @@ export const RESUME_DATA: ResumeData = {
       title: "AI Distillation Attacks: The Case for Targeted Government Intervention",
       publisher: "Institute for AI Policy and Strategy (IAPS)",
       date: "March 2026",
-      link: "https://www.iaps.ai/research/ai-distillation-attacks",
+      link: "https://www.iaps.ai/research/ai-distillation-attacks-the-case-for-targeted-government-intervention",
       description: "In February 2026, Anthropic, OpenAI, and Google published evidence of systematic campaigns by Chinese AI companies to extract capabilities from American frontier models. This memo examines how distillation attacks work, why there is a case for targeted government intervention and what that might look like. Recommendations are offered to support industry efforts to counter distillation attacks: (1) consider BIS Entity List designations for adversary AI companies conducting distillation attacks; (2) assess the merits of PAIP Act sanctions against those engaging in or facilitating distillation attack; (3) explore the development of a NIST-led AI Distillation Defense Framework for the broader ecosystem.",
     },
     {
