@@ -140,6 +140,7 @@ export const RESUME_DATA: ResumeData = {
       title: "High-Touch UK & Pan-European Equity Sales Trader, London",
       start: "September 2021",
       end: "December 2023",
+      durationEnd: "31 December 2023",
       description:
         "High Touch Cash Equity Sales Trader primarily working in the UK and Developed European markets. Coverage for a diverse client base including: Hedge Funds; SWFs; Asset Managers and Pension Funds. Working experience of CEEMEA and Asian markets as well as Programme Trading, developed during a four-month assignment to Paris. Other roles included: Assistant Product Owner for strategic IOI platforms; Front Office point-of-contact for algo and quant development and testing; ECM market analysis; Research, specialist sales and corporate access distribution; Business development and management of new client onboarding.",
     },
