@@ -80,7 +80,7 @@ export function WorkExperience() {
                                         <a>{company}</a>
                                     </h3>
                                     <div className="text-sm tabular-nums text-muted-foreground mt-1 sm:mt-0">
-                                        {job.start} - {job.end} · {getDuration(job.durationStart ?? job.start, job.end)}
+                                        {job.start} - {job.end} · {getDuration(job.durationStart ?? job.start, job.durationEnd ?? job.end)}
                                     </div>
                                 </div>
                                 <h4 className="font-mono text-sm leading-none print:text-[12px] text-muted-foreground">
@@ -102,7 +102,7 @@ export function WorkExperience() {
                                     <a>{company}</a>
                                 </h3>
                                 <div className="text-sm tabular-nums text-muted-foreground mt-1 sm:mt-0">
-                                    {sortedJobs[sortedJobs.length - 1].start} - {sortedJobs[0].end} · {getDuration(sortedJobs[sortedJobs.length - 1].durationStart ?? sortedJobs[sortedJobs.length - 1].start, sortedJobs[0].end)}
+                                    {sortedJobs[sortedJobs.length - 1].start} - {sortedJobs[0].end} · {getDuration(sortedJobs[sortedJobs.length - 1].durationStart ?? sortedJobs[sortedJobs.length - 1].start, sortedJobs[0].durationEnd ?? sortedJobs[0].end)}
                                 </div>
                             </div>
                         </CardHeader>
@@ -133,7 +133,7 @@ export function WorkExperience() {
                                                 {job.title}
                                             </h4>
                                             <div className="text-xs tabular-nums text-muted-foreground mt-1.5 sm:mt-0 whitespace-nowrap">
-                                                {job.start} - {job.end} · {getDuration(job.durationStart ?? job.start, job.end)}
+                                                {job.start} - {job.end} · {getDuration(job.durationStart ?? job.start, job.durationEnd ?? job.end)}
                                             </div>
                                         </div>
                                         <p className="mt-1 text-xs text-muted-foreground text-justify print:text-[10px]">

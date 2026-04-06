@@ -114,6 +114,7 @@ export const RESUME_DATA: ResumeData = {
       title: "AI Regulation Policy Lead",
       start: "January 2025",
       end: "December 2025",
+      durationEnd: "31 December 2025",
       description:
         "Led the development of major policy interventions across topics including AI security, planning reform for AI infrastructure and the AI Growth Lab to support the UK’s AI sector and manage AI-related risks.",
     },
@@ -122,6 +123,7 @@ export const RESUME_DATA: ResumeData = {
       title: "AI Risk Adviser",
       start: "May 2024",
       end: "January 2025",
+      durationStart: "5 May 2024",
       description:
         "Cross-government policy and coordination of AI-exacerbated risks and contingency planning as part of the Central AI Risk Function (CAIRF).",
     },
