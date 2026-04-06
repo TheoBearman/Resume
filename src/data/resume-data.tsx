@@ -105,6 +105,7 @@ export const RESUME_DATA: ResumeData = {
       title: "Frontier Security Researcher",
       start: "January 2026",
       end: "Present",
+      durationStart: "19 January 2026",
       description:
         "",
     },

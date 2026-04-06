@@ -92,7 +92,7 @@ export function InteractiveTimeline({ items, getDuration }: InteractiveTimelineP
                           </div>
                         </TooltipTrigger>
                         <TooltipContent>
-                          <p>{getDuration(item.start, item.end)}</p>
+                          <p>{getDuration(item.durationStart ?? item.start, item.end)}</p>
                         </TooltipContent>
                       </Tooltip>
                     </TooltipProvider>

@@ -38,6 +38,7 @@ export type WorkExperience = {
   details?: ReadonlyArray<string>;
   technologies?: ReadonlyArray<string>;
   highlights?: ReadonlyArray<string>;
+  durationStart?: string; // Optional override for duration calculation start date
 };
 
 // Qualifications
