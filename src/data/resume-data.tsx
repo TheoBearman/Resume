@@ -201,6 +201,13 @@ export const RESUME_DATA: ResumeData = {
   ],
   publications: [
     {
+      title: "AI Decision Support Systems: A Neglected Source of Military AI Risk",
+      publisher: "Institute for AI Policy and Strategy (IAPS)",
+      date: "April 2026",
+      link: "https://www.iaps.ai/research/ai-decision-support-systems",
+      description: "AI decision-support systems are now widely operational in real-world conflicts, yet fall outside DoD policy on lethal autonomy. This memo explores what AI-DSS are, potential failure modes, and policy recommendations to ensure security, reliability, and meaningful human oversight.",
+    },
+    {
       title: "AI Distillation Attacks: The Case for Targeted Government Intervention",
       publisher: "Institute for AI Policy and Strategy (IAPS)",
       date: "March 2026",
