@@ -201,6 +201,13 @@ export const RESUME_DATA: ResumeData = {
   ],
   publications: [
     {
+      title: "AI Distillation Attacks: Executive and Congressional Action Can Go Further",
+      publisher: "Institute for AI Policy and Strategy (IAPS)",
+      date: "May 2026",
+      link: "https://www.iaps.ai/research/ai-distillation-attacks-executive-and-congressional-action-can-go-further",
+      description: "The White House and Congress have begun acting on AI distillation attacks, but gaps remain. This memo assesses the OSTP NSTM and the proposed Deterring American AI Model Theft Act of 2026 and recommends further steps.",
+    },
+    {
       title: "AI Decision Support Systems: A Neglected Source of Military AI Risk",
       publisher: "Institute for AI Policy and Strategy (IAPS)",
       date: "April 2026",
