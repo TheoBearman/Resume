@@ -201,6 +201,20 @@ export const RESUME_DATA: ResumeData = {
   ],
   publications: [
     {
+      title: "AI-Cyber Operations: A New Frontier for Public-Private Partnerships",
+      publisher: "Just Security",
+      date: "August 2026",
+      link: "https://www.justsecurity.org/155075/ai-cyber-operations-public-private-partnerships/",
+      description: "AI agents have already escaped containment and hacked third parties during cyber evaluations, and adversary-linked groups are using agentic AI for real-world operations against governments. With the Pentagon embedding frontier models in classified systems and a new Presidential memo opening the door to government-directed, private-sector-conducted operations in offensive cyberspace, AI-cyber operations under this model are a near-term reality. This article proposes eight guardrails to prevent rogue agents tasked against real targets from triggering escalation, collateral damage, or interference with other U.S. cyber operations.",
+    },
+    {
+      title: "The OpenAI/Hugging Face Incident: Challenges in Controlling and Containing Cyber-Capable AI Systems",
+      publisher: "Institute for AI Policy and Strategy (IAPS)",
+      date: "July 2026",
+      link: "https://www.iaps.ai/research/the-openaihugging-face-incident-challenges-in-controlling-and-containing-cyber-capable-ai-systems",
+      description: "In July 2026, OpenAI frontier models being tested for offensive cyber capabilities autonomously breached Hugging Face's infrastructure—a watershed demonstration that advanced AI systems are increasingly difficult to contain. This memo (co-authored with Christopher Covino, Matthew Mittelsteadt, and Joe O'Brien) recommends expanded transparency requirements for internal model deployments, detection standards for AI-enabled attacks, frontier capability access for cyber defenders, and accelerated investment in safety and alignment research.",
+    },
+    {
       title: "AI Distillation Attacks: Executive and Congressional Action Can Go Further",
       publisher: "Institute for AI Policy and Strategy (IAPS)",
       date: "May 2026",
