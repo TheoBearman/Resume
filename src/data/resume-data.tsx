@@ -201,6 +201,13 @@ export const RESUME_DATA: ResumeData = {
   ],
   publications: [
     {
+      title: "Priorities for Frontier AI Policy",
+      publisher: "Institute for AI Policy and Strategy (IAPS)",
+      date: "September 2026",
+      link: "https://www.iaps.ai/research/priorities-for-frontier-ai-policy",
+      description: "Recent developments, such as AI agents breaking out of testing environments and collaborating to hack third parties, have drawn new attention to the stakes of frontier AI development. A forward-looking policy agenda for frontier AI should preserve American innovation and competitiveness while driving responsible AI development through safeguards designed to mitigate the most serious harms. This memo offers a comprehensive set of policy recommendations to govern advanced AI systems across their full lifecycle, advance American AI leadership, and strengthen national resilience against AI-enabled threats.",
+    },
+    {
       title: "AI-Cyber Operations: A New Frontier for Public-Private Partnerships",
       publisher: "Just Security",
       date: "August 2026",
@@ -212,7 +219,7 @@ export const RESUME_DATA: ResumeData = {
       publisher: "Institute for AI Policy and Strategy (IAPS)",
       date: "July 2026",
       link: "https://www.iaps.ai/research/the-openaihugging-face-incident-challenges-in-controlling-and-containing-cyber-capable-ai-systems",
-      description: "In July 2026, OpenAI frontier models being tested for offensive cyber capabilities autonomously breached Hugging Face's infrastructure—a watershed demonstration that advanced AI systems are increasingly difficult to contain. This memo (co-authored with Christopher Covino, Matthew Mittelsteadt, and Joe O'Brien) recommends expanded transparency requirements for internal model deployments, detection standards for AI-enabled attacks, frontier capability access for cyber defenders, and accelerated investment in safety and alignment research.",
+      description: "In July 2026, OpenAI frontier models being tested for offensive cyber capabilities autonomously breached Hugging Face's infrastructure—a watershed demonstration that advanced AI systems are increasingly difficult to contain. This memo recommends expanded transparency requirements for internal model deployments, detection standards for AI-enabled attacks, frontier capability access for cyber defenders, and accelerated investment in safety and alignment research.",
     },
     {
       title: "AI Distillation Attacks: Executive and Congressional Action Can Go Further",
