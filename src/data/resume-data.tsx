@@ -201,6 +201,13 @@ export const RESUME_DATA: ResumeData = {
   ],
   publications: [
     {
+      title: "Embedded Evaluators for Frontier AI: Contractual Foundations for Credible Assessments",
+      publisher: "Institute for AI Policy and Strategy (IAPS)",
+      date: "October 2026",
+      link: "https://www.iaps.ai/research/embedded-evaluators-for-frontier-ai-contractual-foundations-for-credible-assessments",
+      description: "Can embedded evaluators provide a real check on frontier AI companies? This depends on the contracts agreed by companies and the independent experts brought in-house to assess safety and security practices. For evaluators’ work to be credible and meaningful, and to identify serious risks before they cause harm, five contractual foundations should guide these arrangements.",
+    },
+    {
       title: "Priorities for Frontier AI Policy",
       publisher: "Institute for AI Policy and Strategy (IAPS)",
       date: "September 2026",
