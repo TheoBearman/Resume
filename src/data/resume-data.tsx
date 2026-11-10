@@ -201,6 +201,13 @@ export const RESUME_DATA: ResumeData = {
   ],
   publications: [
     {
+      title: "Transparency Disclosures for Chain-of-Thought Monitorability",
+      publisher: "Institute for AI Policy and Strategy (IAPS)",
+      date: "November 2026",
+      link: "https://www.iaps.ai/research/transparency-disclosures-for-chain-of-thought-monitorability",
+      description: "Monitoring the decision-making of frontier AI models is one of the effective oversight tools we have. Recent evidence suggests the ability to understand and evaluate models based on chain-of-thought (CoT) reasoning is under threat. This report argues that developers should regularly report indicators of CoT monitorability to help track this tool’s effectiveness for oversight, inform a response if it weakens, and strengthen incentives to preserve it.",
+    },
+    {
       title: "Embedded Evaluators for Frontier AI: Contractual Foundations for Credible Assessments",
       publisher: "Institute for AI Policy and Strategy (IAPS)",
       date: "October 2026",
