@@ -201,6 +201,13 @@ export const RESUME_DATA: ResumeData = {
   ],
   publications: [
     {
+      title: "Scaling Securely: Recommendations for the Executive Branch",
+      publisher: "Institute for AI Policy and Strategy (IAPS)",
+      date: "November 2026",
+      link: "https://www.iaps.ai/research/scaling-securely-recommendations-for-the-executive-branch",
+      description: "How can the United States prepare for rapid and unpredictable jumps in capability development that could exceed safety guardrails and threaten national security? Our new memo sets out what the Executive Branch should focus on in the next six months to strengthen government oversight and capacity while preserving the U.S. technological lead.",
+    },
+    {
       title: "Transparency Disclosures for Chain-of-Thought Monitorability",
       publisher: "Institute for AI Policy and Strategy (IAPS)",
       date: "November 2026",
